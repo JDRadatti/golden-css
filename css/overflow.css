@@ -1,16 +1,15 @@
 .overflow__hidden {
-  overflow: hidden;
+    overflow: hidden;
 }
 
 .overflow__visible {
-  overflow: visible;
+    overflow: visible;
 }
 
 .overflow__scroll {
-  overflow: scroll;
+    overflow: scroll;
 }
 
 .overflow__auto {
-  overflow: auto;
+    overflow: auto;
 }
-

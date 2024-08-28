@@ -11,22 +11,22 @@ Template: aspect-ratio: width / height;
 */
 
 .aspect__16x9 {
-  aspect-ratio: 16 / 9;
+    aspect-ratio: 16 / 9;
 }
 
 .aspect__4x3 {
-  aspect-ratio: 4 / 3;
+    aspect-ratio: 4 / 3;
 
 }
 
 .aspect__3x2 {
-  aspect-ratio: 3 / 2;
+    aspect-ratio: 3 / 2;
 }
 
 .aspect__9x16 {
-  aspect-ratio: 9 / 16;
+    aspect-ratio: 9 / 16;
 }
 
 .aspect__1x1 {
-  aspect-ratio: 1;
+    aspect-ratio: 1;
 }
