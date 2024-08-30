@@ -12,7 +12,6 @@
 @import './css/icons.css';
 @import './css/justify-content.css';
 @import './css/margins.css';
-@import './css/normalize.css';
 @import './css/opacity.css';
 @import './css/overflow.css';
 @import './css/padding.css';
@@ -23,3 +22,4 @@
 @import './css/state-layers.css';
 @import './css/text-alignment.css';
 @import './css/typography.css';
+@import './css/normalize.css';
