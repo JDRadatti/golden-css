@@ -17,18 +17,18 @@ document.querySelector('#app').innerHTML = `
     <div class="overline">Overline</div>
   </div>
   <div>
-    <h1 class="display1 ">Display 1</h1>
-    <p class="display2 ">Display 2</p>
-    <p class="title1 ">Title 1</p>
-    <p class="title2 ">Title 2<p>
-    <p class="title3 ">Title 3</p>
-    <p class="heading ">Heading</p>
-    <p class="subheading ">Subheading</p>
-    <p class="body ">Body text</p>
-    <p class="callout ">Callout</p>
-    <p class="label ">Label</p>
-    <p class="caption ">Caption</p>
-    <p class="overline ">Overline</p>
+    <h1 class="display1__bold">Display 1</h1>
+    <p class="display2__bold ">Display 2</p>
+    <p class="title1__bold ">Title 1</p>
+    <p class="title2__bold">Title 2<p>
+    <p class="title3__bold">Title 3</p>
+    <p class="heading__bold">Heading</p>
+    <p class="subheading__bold">Subheading</p>
+    <p class="body__bold">Body text</p>
+    <p class="callout__bold">Callout</p>
+    <p class="label__bold">Label</p>
+    <p class="caption__bold">Caption</p>
+    <p class="overline__bold">Overline</p>
   </div>
 `
 
