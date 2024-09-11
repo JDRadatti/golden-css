@@ -1,0 +1,44 @@
+.button {
+    --spacer: calc(1.272em / 2.618);
+    grid-column-gap: var(--spacer);
+    grid-row-gap: var(--spacer);
+    white-space: normal;
+    word-break: keep-all;
+    border: 1px solid transparent;
+    border-radius: 100em;
+    justify-content: flex-start;
+    align-items: center;
+    padding: var(--spacer) 1em;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+
+    --state-color: var(--light__shadow_lkv);
+    --line-height: 1.618em;
+}
+
+
+.outline {
+    border: 1px solid #727272;
+}
+
+.button.start-icon {
+    padding-left: calc(var(--line-height) / 2.618);
+}
+
+.button.end-icon {
+    padding-right: calc(var(--line-height) / 2.618);
+}
+
+.button__content {
+    grid-column-gap: var(--spacer);
+    grid-row-gap: var(--spacer);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.button.large {
+    font-size: 1.272em;
+}
