@@ -3,7 +3,7 @@ import '../js/button.js'
 
 document.querySelector('#app').innerHTML = `
   <div>
-    <div class="display1"></div>
+    <div class="display1">Display 1</div>
     <div class="display2">Display 2</div>
     <div class="title1">Title 1</div>
     <div class="title2">Title 2</div>
