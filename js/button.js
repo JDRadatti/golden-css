@@ -23,7 +23,6 @@ class GoldenButton extends HTMLElement {
             icons += " end-icon"
         }
         this.theme += icons
-        console.log(this.theme)
 
         this.innerHTML = `
 <a href=\"${this.href}\" class=\"button w-inline-block ${this.theme}\"> 
@@ -38,13 +37,11 @@ class GoldenButton extends HTMLElement {
     }
 
     attributeChangedCallback(name, oldValue, newValue) {
-        console.log("name, newval:", name, newValue)
         switch (name) {
             case "href":
                 this.href = newValue
                 break
             case "start-icon":
-                console.log("start")
                 this.startIcon = `<div class=\"material-symbols-outlined\">${newValue}</div>`
                 break
             case "end-icon":
