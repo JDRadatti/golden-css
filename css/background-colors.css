@@ -19,300 +19,360 @@ if there are any.
 .bg-primary {
     background-color: var(--primary_lkv);
     color: var(--onprimary_lkv);
+    --state-color: var(--onprimary_lkv);
 }
 
 
 .bg-onprimary {
     background-color: var(--onprimary_lkv);
     color: var(--primary_lkv);
+    --state-color: var(--primary_lkv);
 }
 
 .bg-primarycontainer {
     background-color: var(--primarycontainer_lkv);
     color: var(--onprimarycontainer_lkv);
+    --state-color: var(--onprimarycontainer_lkv);
 }
 
 .bg-onprimarycontainer {
     background-color: var(--onprimarycontainer_lkv);
     color: var(--primarycontainer_lkv);
+    --state-color: var(--primarycontainer_lkv);
 }
 
 .bg-secondary {
     background-color: var(--secondary_lkv);
     color: var(--onsecondary_lkv);
+    --state-color: var(--onsecondary_lkv);
 }
 
 .bg-onsecondary {
     background-color: var(--onsecondary_lkv);
     color: var(--secondary_lkv);
+    --state-color: var(--secondary_lkv);
 }
 
 .bg-secondarycontainer {
     background-color: var(--secondarycontainer_lkv);
     color: var(--onsecondarycontainer_lkv);
+    --state-color: var(--onsecondarycontainer_lkv);
 }
 
 .bg-onsecondarycontainer {
     background-color: var(--onsecondarycontainer_lkv);
     color: var(--secondarycontainer_lkv);
+    --state-color: var(--secondarycontainer_lkv);
 }
 
 .bg-tertiary {
     background-color: var(--tertiary_lkv);
     color: var(--ontertiary_lkv);
+    --state-color: var(--ontertiary_lkv);
 }
 
 .bg-ontertiary {
     background-color: var(--ontertiary_lkv);
     color: var(--tertiary_lkv);
+    --state-color: var(--tertiary_lkv);
 }
 
 .bg-tertiarycontainer {
     background-color: var(--tertiarycontainer_lkv);
     color: var(--ontertiarycontainer_lkv);
+    --state-color: var(--ontertiarycontainer_lkv);
 }
 
 .bg-ontertiarycontainer {
     background-color: var(--ontertiarycontainer_lkv);
     color: var(--tertiarycontainer_lkv);
+    --state-color: var(--tertiarycontainer_lkv);
 }
 
 .bg-error {
     background-color: var(--error_lkv);
     color: var(--onerror_lkv);
+    --state-color: var(--onerror_lkv);
 }
 
 .bg-onerror {
     background-color: var(--onerror_lkv);
     color: var(--error_lkv);
+    --state-color: var(--error_lkv);
 }
 
 .bg-errorcontainer {
     background-color: var(--errorcontainer_lkv);
     color: var(--onerrorcontainer_lkv);
+    --state-color: var(--onerrorcontainer_lkv);
 }
 
 .bg-onerrorcontainer {
     background-color: var(--onerrorcontainer_lkv);
     color: var(--errorcontainer_lkv);
+    --state-color: var(--errorcontainer_lkv);
 }
 
 .bg-background {
     background-color: var(--background_lkv);
     color: var(--onbackground_lkv);
+    --state-color: var(--onbackground_lkv);
 }
 
 .bg-onbackground {
     background-color: var(--onbackground_lkv);
     color: var(--background_lkv);
+    --state-color: var(--background_lkv);
 }
 
 .bg-surface {
     background-color: var(--surface_lkv);
     color: var(--onsurface_lkv);
+    --state-color: var(--onsurface_lkv);
 }
 
 .bg-onsurface {
     background-color: var(--onsurface_lkv);
     color: var(--surface_lkv);
+    --state-color: var(--surface_lkv);
 }
 
 .bg-surfacevariant {
     background-color: var(--surfacevariant_lkv);
     color: var(--onsurfacevariant_lkv);
+    --state-color: var(--onsurfacevariant_lkv);
 }
 
 .bg-onsurfacevariant {
     background-color: var(--onsurfacevariant_lkv);
     color: var(--surfacevariant_lkv);
+    --state-color: var(--surfacevariant_lkv);
 }
 
 .bg-outline {
     background-color: var(--outline_lkv);
     color: var(--surface_lkv);
+    --state-color: var(--surface_lkv);
 }
 
 .bg-outlinevariant {
     background-color: var(--outlinevariant_lkv);
     color: var(--onsurface_lkv);
+    --state-color: var(--onsurface_lkv);
 }
 
 .bg-shadow {
     background-color: var(--shadow_lkv);
     color: var(--surface_lkv);
+    --state-color: var(--surface_lkv);
 }
 
 .bg-scrim {
     background-color: var(--scrim_lkv);
     color: var(--surface_lkv);
+    --state-color: var(--surface_lkv);
 }
 
 .bg-inversesurface {
     background-color: var(--inversesurface_lkv);
     color: var(--inverseonsurface_lkv);
+    --state-color: var(--inverseonsurface_lkv);
 }
 
 .bg-inverseonsurface {
     background-color: var(--inverseonsurface_lkv);
     color: var(--inversesurface_lkv);
+    --state-color: var(--inversesurface_lkv);
 }
 
 .bg-inverseprimary {
     background-color: var(--inverseprimary_lkv);
     color: var(--onprimarycontainer_lkv);
+    --state-color: var(--onprimarycontainer_lkv);
 }
 
 .bg-success {
     background-color: var(--success_lkv);
     color: var(--onsuccess_lkv);
+    --state-color: var(--onsuccess_lkv);
 }
 
 .bg-successcontainer {
     background-color: var(--successcontainer_lkv);
     color: var(--onsuccesscontainer_lkv);
+    --state-color: var(--onsuccesscontainer_lkv);
 }
 
 .bg-onsuccess {
     background-color: var(--onsuccess_lkv);
     color: var(--success_lkv);
+    --state-color: var(--success_lkv);
 }
 
 .bg-onsuccesscontainer {
     background-color: var(--onsuccesscontainer_lkv);
     color: var(--successcontainer_lkv);
+    --state-color: var(--successcontainer_lkv);
 }
 
 .bg-warning {
     background-color: var(--warning_lkv);
     color: var(--onwarning_lkv);
+    --state-color: var(--onwarning_lkv);
 }
 
 .bg-warningcontainer {
     background-color: var(--warningcontainer_lkv);
     color: var(--onwarningcontainer_lkv);
+    --state-color: var(--onwarningcontainer_lkv);
 }
 
 .bg-onwarning {
     background-color: var(--onwarning_lkv);
     color: var(--warning_lkv);
+    --state-color: var(--warning_lkv);
 }
 
 .bg-onwarningcontainer {
     background-color: var(--onwarningcontainer_lkv);
     color: var(--warningcontainer_lkv);
+    --state-color: var(--warningcontainer_lkv);
 }
 
 .bg-info {
     background-color: var(--info_lkv);
     color: var(--oninfo_lkv);
+    --state-color: var(--oninfo_lkv);
 }
 
 .bg-infocontainer {
     background-color: var(--infocontainer_lkv);
     color: var(--oninfocontainer_lkv);
+    --state-color: var(--oninfocontainer_lkv);
 }
 
 .bg-oninfo {
     background-color: var(--oninfo_lkv);
     color: var(--info_lkv);
+    --state-color: var(--info_lkv);
 }
 
 .bg-oninfocontainer {
     background-color: var(--oninfocontainer_lkv);
     color: var(--infocontainer_lkv);
+    --state-color: var(--infocontainer_lkv);
 }
 
 .bg-primaryfixed {
     background-color: var(--primaryfixed_lkv);
     color: var(--onprimaryfixed_lkv);
+    --state-color: var(--onprimaryfixed_lkv);
 }
 
 .bg-primaryfixeddim {
     background-color: var(--primaryfixeddim_lkv);
     color: var(--onprimaryfixedvariant_lkv);
+    --state-color: var(--onprimaryfixedvariant_lkv);
 }
 
 .bg-onprimaryfixed {
     background-color: var(--onprimaryfixed_lkv);
     color: var(--primaryfixed_lkv);
+    --state-color: var(--primaryfixed_lkv);
 }
 
 .bg-onprimaryfixedvariant {
     background-color: var(--onprimaryfixedvariant_lkv);
     color: var(--primaryfixed_lkv);
+    --state-color: var(--primaryfixed_lkv);
 }
 
 .bg-secondaryfixed {
     background-color: var(--secondaryfixed_lkv);
     color: var(--onsecondaryfixed_lkv);
+    --state-color: var(--onsecondaryfixed_lkv);
 }
 
 .bg-secondaryfixeddim {
     background-color: var(--secondaryfixeddim_lkv);
     color: var(--onsecondaryfixedvariant_lkv);
+    --state-color: var(--onsecondaryfixedvariant_lkv);
 }
 
 .bg-onsecondaryfixed {
     background-color: var(--onsecondaryfixed_lkv);
     color: var(--secondaryfixed_lkv);
+    --state-color: var(--secondaryfixed_lkv);
 }
 
 .bg-onsecondaryfixedvariant {
     background-color: var(--onsecondaryfixedvariant_lkv);
     color: var(--secondaryfixed_lkv);
+    --state-color: var(--secondaryfixed_lkv);
 }
 
 .bg-tertiaryfixed {
     background-color: var(--tertiaryfixed_lkv);
     color: var(--ontertiaryfixed_lkv);
+    --state-color: var(--ontertiaryfixed_lkv);
 }
 
 .bg-tertiaryfixeddim {
     background-color: var(--tertiaryfixeddim_lkv);
     color: var(--ontertiaryfixedvariant_lkv);
+    --state-color: var(--ontertiaryfixedvariant_lkv);
 }
 
 .bg-ontertiaryfixed {
     background-color: var(--ontertiaryfixed_lkv);
     color: var(--tertiaryfixed_lkv);
+    --state-color: var(--tertiaryfixed_lkv);
 }
 
 .bg-ontertiaryfixedvariant {
     background-color: var(--ontertiaryfixedvariant_lkv);
     color: var(--tertiaryfixed_lkv);
+    --state-color: var(--tertiaryfixed_lkv);
 }
 
 .bg-surfacedim {
     background-color: var(--surfacedim_lkv);
     color: var(--onsurface_lkv);
+    --state-color: var(--onsurface_lkv);
 }
 
 .bg-surfacebright {
     background-color: var(--surfacebright_lkv);
     color: var(--onsurface_lkv);
+    --state-color: var(--onsurface_lkv);
 }
 
 .bg-surfacecontainerlowest {
     background-color: var(--surfacecontainerlowest_lkv);
     color: var(--onsurface_lkv);
+    --state-color: var(--onsurface_lkv);
 }
 
 .bg-surfacecontainerlow {
     background-color: var(--surfacecontainerlow_lkv);
     color: var(--onsurface_lkv);
+    --state-color: var(--onsurface_lkv);
 }
 
 .bg-surfacecontainer {
     background-color: var(--surfacecontainer_lkv);
     color: var(--onsurface_lkv);
+    --state-color: var(--onsurface_lkv);
 }
 
 .bg-surfacecontainerhigh {
     background-color: var(--surfacecontainerhigh_lkv);
     color: var(--onsurface_lkv);
+    --state-color: var(--onsurface_lkv);
 }
 
 .bg-surfacecontainerhighest {
     background-color: var(--surfacecontainerhighest_lkv);
     color: var(--onsurface_lkv);
+    --state-color: var(--onsurface_lkv);
 }
