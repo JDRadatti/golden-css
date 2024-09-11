@@ -14,7 +14,7 @@
     position: relative;
     overflow: hidden;
 
-    --state-color: var(--light__shadow_lkv);
+    --state-color: var(--shadow_lkv);
     --line-height: 1.618em;
 }
 
