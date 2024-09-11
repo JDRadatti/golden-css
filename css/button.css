@@ -20,7 +20,7 @@
 
 
 .outline {
-    border: 1px solid #727272;
+    border: 1px solid var(--outlinevariant_lkv, #727272);
 }
 
 .button.start-icon {
