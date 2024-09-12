@@ -25,11 +25,11 @@ class GoldenButton extends HTMLElement {
         this.theme += icons
 
         this.innerHTML = `
-<a href=\"${this.href}\" class=\"button w-inline-block ${this.theme}\"> 
+<a href=\"${this.href}\" class=\"button ${this.theme}\"> 
     <div class="state-layer"></div>
     <div class="button__content">
         ${this.startIcon}
-        <div class="body__bold">${this.label}</div>
+        <span class="body__bold p-top__2xs">${this.label}</span>
         ${this.endIcon}
     </div>
 </a>
