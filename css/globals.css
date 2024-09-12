@@ -168,7 +168,6 @@
     -moz-osx-font-smoothing: grayscale;
     font-smooth: never;
 
-
     --background_lkv: var(--light__background_lkv);
     --onsurface_lkv: var(--light__onsurface_lkv);
     --primary_lkv: var(--light__primary_lkv);
@@ -229,6 +228,71 @@
     --surfacecontainer_lkv: var(--light__surfacecontainer_lkv);
     --surfacecontainerhigh_lkv: var(--light__surfacecontainerhigh_lkv);
     --surfacecontainerhighest_lkv: var(--light__surfacecontainerhighest_lkv);
+    color-scheme: light;
+}
+
+[data-theme="light"] {
+    --background_lkv: var(--light__background_lkv);
+    --onsurface_lkv: var(--light__onsurface_lkv);
+    --primary_lkv: var(--light__primary_lkv);
+    --surfacecontainerlowest_lkv: var(--light__surfacecontainerlowest_lkv);
+    --onsurfacevariant_lkv: var(--light__onsurfacevariant_lkv);
+    --onprimary_lkv: var(--light__onprimary_lkv);
+    --outlinevariant_lkv: var(--light__outlinevariant_lkv);
+    --shadow_lkv: var(--light__shadow_lkv);
+    --info_lkv: var(--light__info_lkv);
+    --secondary_lkv: var(--light__secondary_lkv);
+    --outline_lkv: var(--light__outline_lkv);
+    --inverseprimary_lkv: var(--light__inverseprimary_lkv);
+    --surfacecontainerlow_lkv: var(--light__surfacecontainerlow_lkv);
+    --successcontainer_lkv: var(--light__successcontainer_lkv);
+    --onsuccesscontainer_lkv: var(--light__onsuccesscontainer_lkv);
+    --infocontainer_lkv: var(--light__infocontainer_lkv);
+    --oninfocontainer_lkv: var(--light__oninfocontainer_lkv);
+    --warningcontainer_lkv: var(--light__warningcontainer_lkv);
+    --onwarningcontainer_lkv: var(--light__onwarningcontainer_lkv);
+    --errorcontainer_lkv: var(--light__errorcontainer_lkv);
+    --onerrorcontainer_lkv: var(--light__onerrorcontainer_lkv);
+    --onsecondarycontainer_lkv: var(--light__onsecondarycontainer_lkv);
+    --primarycontainer_lkv: var(--light__primarycontainer_lkv);
+    --onprimarycontainer_lkv: var(--light__onprimarycontainer_lkv);
+    --onsecondary_lkv: var(--light__onsecondary_lkv);
+    --secondarycontainer_lkv: var(--light__secondarycontainer_lkv);
+    --tertiary_lkv: var(--light__tertiary_lkv);
+    --ontertiary_lkv: var(--light__ontertiary_lkv);
+    --tertiarycontainer_lkv: var(--light__tertiarycontainer_lkv);
+    --ontertiarycontainer_lkv: var(--light__ontertiarycontainer_lkv);
+    --error_lkv: var(--light__error_lkv);
+    --onerror_lkv: var(--light__onerror_lkv);
+    --onbackground_lkv: var(--light__onbackground_lkv);
+    --surface_lkv: var(--light__surface_lkv);
+    --surfacevariant_lkv: var(--light__surfacevariant_lkv);
+    --scrim_lkv: var(--light__scrim_lkv);
+    --inversesurface_lkv: var(--light__inversesurface_lkv);
+    --inverseonsurface_lkv: var(--light__inverseonsurface_lkv);
+    --success_lkv: var(--light__success_lkv);
+    --onsuccess_lkv: var(--light__onsuccess_lkv);
+    --warning_lkv: var(--light__warning_lkv);
+    --onwarning_lkv: var(--light__onwarning_lkv);
+    --oninfo_lkv: var(--light__oninfo_lkv);
+    --primaryfixed_lkv: var(--light__primaryfixed_lkv);
+    --onprimaryfixed_lkv: var(--light__onprimaryfixed_lkv);
+    --primaryfixeddim_lkv: var(--light__primaryfixeddim_lkv);
+    --onprimaryfixedvariant_lkv: var(--light__onprimaryfixedvariant_lkv);
+    --secondaryfixed_lkv: var(--light__secondaryfixed_lkv);
+    --onsecondaryfixed_lkv: var(--light__onsecondaryfixed_lkv);
+    --secondaryfixeddim_lkv: var(--light__secondaryfixeddim_lkv);
+    --onsecondaryfixedvariant_lkv: var(--light__onsecondaryfixedvariant_lkv);
+    --tertiaryfixed_lkv: var(--light__tertiaryfixed_lkv);
+    --ontertiaryfixed_lkv: var(--light__ontertiaryfixed_lkv);
+    --tertiaryfixeddim_lkv: var(--light__tertiaryfixeddim_lkv);
+    --ontertiaryfixedvariant_lkv: var(--light__ontertiaryfixedvariant_lkv);
+    --surfacedim_lkv: var(--light__surfacedim_lkv);
+    --surfacebright_lkv: var(--light__surfacebright_lkv);
+    --surfacecontainer_lkv: var(--light__surfacecontainer_lkv);
+    --surfacecontainerhigh_lkv: var(--light__surfacecontainerhigh_lkv);
+    --surfacecontainerhighest_lkv: var(--light__surfacecontainerhighest_lkv);
+    color-scheme: light;
 }
 
 [data-theme="dark"] {
@@ -292,4 +356,69 @@
     --surfacecontainer_lkv: var(--dark__surfacecontainer_lkv);
     --surfacecontainerhigh_lkv: var(--dark__surfacecontainerhigh_lkv);
     --surfacecontainerhighest_lkv: var(--dark__surfacecontainerhighest_lkv);
+    color-scheme: dark;
+}
+
+[data-theme="light"] {
+    --background_lkv: var(--light__background_lkv);
+    --onsurface_lkv: var(--light__onsurface_lkv);
+    --primary_lkv: var(--light__primary_lkv);
+    --surfacecontainerlowest_lkv: var(--light__surfacecontainerlowest_lkv);
+    --onsurfacevariant_lkv: var(--light__onsurfacevariant_lkv);
+    --onprimary_lkv: var(--light__onprimary_lkv);
+    --outlinevariant_lkv: var(--light__outlinevariant_lkv);
+    --shadow_lkv: var(--light__shadow_lkv);
+    --info_lkv: var(--light__info_lkv);
+    --secondary_lkv: var(--light__secondary_lkv);
+    --outline_lkv: var(--light__outline_lkv);
+    --inverseprimary_lkv: var(--light__inverseprimary_lkv);
+    --surfacecontainerlow_lkv: var(--light__surfacecontainerlow_lkv);
+    --successcontainer_lkv: var(--light__successcontainer_lkv);
+    --onsuccesscontainer_lkv: var(--light__onsuccesscontainer_lkv);
+    --infocontainer_lkv: var(--light__infocontainer_lkv);
+    --oninfocontainer_lkv: var(--light__oninfocontainer_lkv);
+    --warningcontainer_lkv: var(--light__warningcontainer_lkv);
+    --onwarningcontainer_lkv: var(--light__onwarningcontainer_lkv);
+    --errorcontainer_lkv: var(--light__errorcontainer_lkv);
+    --onerrorcontainer_lkv: var(--light__onerrorcontainer_lkv);
+    --onsecondarycontainer_lkv: var(--light__onsecondarycontainer_lkv);
+    --primarycontainer_lkv: var(--light__primarycontainer_lkv);
+    --onprimarycontainer_lkv: var(--light__onprimarycontainer_lkv);
+    --onsecondary_lkv: var(--light__onsecondary_lkv);
+    --secondarycontainer_lkv: var(--light__secondarycontainer_lkv);
+    --tertiary_lkv: var(--light__tertiary_lkv);
+    --ontertiary_lkv: var(--light__ontertiary_lkv);
+    --tertiarycontainer_lkv: var(--light__tertiarycontainer_lkv);
+    --ontertiarycontainer_lkv: var(--light__ontertiarycontainer_lkv);
+    --error_lkv: var(--light__error_lkv);
+    --onerror_lkv: var(--light__onerror_lkv);
+    --onbackground_lkv: var(--light__onbackground_lkv);
+    --surface_lkv: var(--light__surface_lkv);
+    --surfacevariant_lkv: var(--light__surfacevariant_lkv);
+    --scrim_lkv: var(--light__scrim_lkv);
+    --inversesurface_lkv: var(--light__inversesurface_lkv);
+    --inverseonsurface_lkv: var(--light__inverseonsurface_lkv);
+    --success_lkv: var(--light__success_lkv);
+    --onsuccess_lkv: var(--light__onsuccess_lkv);
+    --warning_lkv: var(--light__warning_lkv);
+    --onwarning_lkv: var(--light__onwarning_lkv);
+    --oninfo_lkv: var(--light__oninfo_lkv);
+    --primaryfixed_lkv: var(--light__primaryfixed_lkv);
+    --onprimaryfixed_lkv: var(--light__onprimaryfixed_lkv);
+    --primaryfixeddim_lkv: var(--light__primaryfixeddim_lkv);
+    --onprimaryfixedvariant_lkv: var(--light__onprimaryfixedvariant_lkv);
+    --secondaryfixed_lkv: var(--light__secondaryfixed_lkv);
+    --onsecondaryfixed_lkv: var(--light__onsecondaryfixed_lkv);
+    --secondaryfixeddim_lkv: var(--light__secondaryfixeddim_lkv);
+    --onsecondaryfixedvariant_lkv: var(--light__onsecondaryfixedvariant_lkv);
+    --tertiaryfixed_lkv: var(--light__tertiaryfixed_lkv);
+    --ontertiaryfixed_lkv: var(--light__ontertiaryfixed_lkv);
+    --tertiaryfixeddim_lkv: var(--light__tertiaryfixeddim_lkv);
+    --ontertiaryfixedvariant_lkv: var(--light__ontertiaryfixedvariant_lkv);
+    --surfacedim_lkv: var(--light__surfacedim_lkv);
+    --surfacebright_lkv: var(--light__surfacebright_lkv);
+    --surfacecontainer_lkv: var(--light__surfacecontainer_lkv);
+    --surfacecontainerhigh_lkv: var(--light__surfacecontainerhigh_lkv);
+    --surfacecontainerhighest_lkv: var(--light__surfacecontainerhighest_lkv);
+    color-scheme: light;
 }
