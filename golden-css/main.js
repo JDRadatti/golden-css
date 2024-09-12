@@ -45,41 +45,125 @@ document.querySelector('#card').innerHTML = `
 </article>
 `
 
+let colors = [
+    "bg-primary",
+    "bg-onprimary",
+    "bg-primarycontainer",
+    "bg-onprimarycontainer",
+    "bg-secondary",
+    "bg-onsecondary",
+    "bg-secondarycontainer",
+    "bg-onsecondarycontainer",
+    "bg-tertiary",
+    "bg-ontertiary",
+    "bg-tertiarycontainer",
+    "bg-ontertiarycontainer",
+    "bg-error",
+    "bg-onerror",
+    "bg-errorcontainer",
+    "bg-onerrorcontainer",
+    "bg-background",
+    "bg-onbackground",
+    "bg-surface",
+    "bg-onsurface",
+    "bg-surfacevariant",
+    "bg-onsurfacevariant",
+    "bg-outline",
+    "bg-outlinevariant",
+    "bg-inversesurface",
+    "bg-inverseonsurface",
+    "bg-inverseprimary",
+    "bg-success",
+    "bg-successcontainer",
+    "bg-onsuccess",
+    "bg-onsuccesscontainer",
+    "bg-warning",
+    "bg-warningcontainer",
+    "bg-onwarning",
+    "bg-onwarningcontainer",
+    "bg-info",
+    "bg-infocontainer",
+    "bg-oninfo",
+    "bg-oninfocontainer",
+    "bg-primaryfixed",
+    "bg-primaryfixeddim",
+    "bg-onprimaryfixed",
+    "bg-onprimaryfixedvariant",
+    "bg-secondaryfixed",
+    "bg-secondaryfixeddim",
+    "bg-onsecondaryfixed",
+    "bg-onsecondaryfixedvariant",
+    "bg-tertiaryfixed",
+    "bg-tertiaryfixeddim",
+    "bg-ontertiaryfixed",
+    "bg-ontertiaryfixedvariant",
+    "bg-surfacedim",
+    "bg-surfacebright",
+    "bg-surfacecontainerlowest",
+    "bg-surfacecontainerlow",
+    "bg-surfacecontainer",
+    "bg-surfacecontainerhigh",
+    "bg-surfacecontainerhighest",
+    "bg-shadow",
+    "bg-scrim",
+]
+var innerColors = `<style>
+    .swab {
+        position: relative;
+    }
+</style>
+<div class="title1">Colors</div>
+<div class=\"grid col__4\">
+`
+for (let i in colors) {
+    innerColors += `
+<div class=\"${colors[i]}\ swab"> 
+    <div class="state-layer"></div>
+    <div class="button__content">
+        <span class="p-top__md p-bottom__md p-right__md">${colors[i]}</span>
+    </div>
+</div>
+`
+}
+innerColors += "</div>"
+
+document.querySelector('#colors').innerHTML = innerColors
+
 document.querySelector('#button').innerHTML = `
 <div style="height: 10px"></div>
 <golden-button theme="bg-primary large" start-icon="arrow_forward" end-icon="home" label="Label"></golden-button>
 <golden-button theme="bg-onprimary large outline" start-icon="arrow_forward" end-icon="home" label="Label"></golden-button>
-<golden-button theme="bg-onprimary large" start-icon="arrow_forward" end-icon="home" label="Label"></golden-button>
+<golden-button theme="bg-onprimary large text" start-icon="arrow_forward" end-icon="home" label="Label"></golden-button>
 
 <div style="height: 10px"></div>
 <golden-button theme="bg-secondary large" start-icon="arrow_forward" end-icon="home" label="Label"></golden-button>
 <golden-button theme="bg-onsecondary large outline" start-icon="arrow_forward" end-icon="home" label="Label"></golden-button>
-<golden-button theme="bg-onsecondary large" start-icon="arrow_forward" end-icon="home" label="Label"></golden-button>
+<golden-button theme="bg-onsecondary large text" start-icon="arrow_forward" end-icon="home" label="Label"></golden-button>
 
 <div style="height: 10px"></div>
 <golden-button theme="bg-tertiary large" start-icon="arrow_forward" end-icon="home" label="Label"></golden-button>
 <golden-button theme="bg-ontertiary large outline" start-icon="arrow_forward" end-icon="home" label="Label"></golden-button>
-<golden-button theme="bg-ontertiary large" start-icon="arrow_forward" end-icon="home" label="Label"></golden-button>
+<golden-button theme="bg-ontertiary large text" start-icon="arrow_forward" end-icon="home" label="Label"></golden-button>
 
 <div style="height: 10px"></div>
 <golden-button theme="bg-error large" start-icon="arrow_forward" end-icon="home" label="Label"></golden-button>
 <golden-button theme="bg-onerror large outline" start-icon="arrow_forward" end-icon="home" label="Label"></golden-button>
-<golden-button theme="bg-onerror large" start-icon="arrow_forward" end-icon="home" label="Label"></golden-button>
+<golden-button theme="bg-onerror large text" start-icon="arrow_forward" end-icon="home" label="Label"></golden-button>
 
 <div style="height: 10px"></div>
 <golden-button theme="bg-warning large" start-icon="arrow_forward" end-icon="home" label="Label"></golden-button>
 <golden-button theme="bg-onwarning large outline" start-icon="arrow_forward" end-icon="home" label="Label"></golden-button>
-<golden-button theme="bg-onwarning large" start-icon="arrow_forward" end-icon="home" label="Label"></golden-button>
+<golden-button theme="bg-onwarning large text" start-icon="arrow_forward" end-icon="home" label="Label"></golden-button>
 
 <div style="height: 10px"></div>
 <golden-button theme="bg-info large" start-icon="arrow_forward" end-icon="home" label="Label"></golden-button>
 <golden-button theme="bg-oninfo large outline" start-icon="arrow_forward" end-icon="home" label="Label"></golden-button>
-<golden-button theme="bg-oninfo large" start-icon="arrow_forward" end-icon="home" label="Label"></golden-button>
+<golden-button theme="bg-oninfo large text" start-icon="arrow_forward" end-icon="home" label="Label"></golden-button>
 
 <div style="height: 10px"></div>
 <golden-button theme="bg-success large" start-icon="arrow_forward" end-icon="home" label="Label"></golden-button>
 <golden-button theme="bg-onsuccess large outline" start-icon="arrow_forward" end-icon="home" label="Label"></golden-button>
-<golden-button theme="bg-onsuccess large" start-icon="arrow_forward" end-icon="home" label="Label"></golden-button>
+<golden-button theme="bg-onsuccess large text" start-icon="arrow_forward" end-icon="home" label="Label"></golden-button>
 
 <div style="height: 10px"></div>
 <golden-button theme="bg-surfacecontainerhighest large" start-icon="arrow_forward" end-icon="home" label="Label"></golden-button>
@@ -95,7 +179,6 @@ document.querySelector('#button').innerHTML = `
 <div style="height: 100px"></div>
 <golden-button theme="bg-primarycontainer large" start-icon="arrow_forward" end-icon="home" label="Label"></golden-button>
 <golden-button theme="bg-onprimarycontainer large" start-icon="arrow_forward" end-icon="home" label="Label"></golden-button>
-<golden-button theme="bg-inverseprimary large outline" start-icon="arrow_forward" end-icon="home" label="Label"></golden-button>
 
 <div style="height: 10px"></div>
 <golden-button theme="bg-secondarycontainer large" start-icon="arrow_forward" end-icon="home" label="Label"></golden-button>
@@ -104,7 +187,6 @@ document.querySelector('#button').innerHTML = `
 <div style="height: 10px"></div>
 <golden-button theme="bg-tertiarycontainer large" start-icon="arrow_forward" end-icon="home" label="Label"></golden-button>
 <golden-button theme="bg-ontertiarycontainer large" start-icon="arrow_forward" end-icon="home" label="Label"></golden-button>
-<golden-button theme="bg-ontertiaryfixedvariant large" start-icon="arrow_forward" end-icon="home" label="Label"></golden-button>
 
 <div style="height: 10px"></div>
 <golden-button theme="bg-errorcontainer large" start-icon="arrow_forward" end-icon="home" label="Label"></golden-button>
@@ -119,12 +201,16 @@ document.querySelector('#button').innerHTML = `
 <golden-button theme="bg-oninfocontainer large" start-icon="arrow_forward" end-icon="home" label="Label"></golden-button>
 
 <div style="height: 10px"></div>
-<golden-button theme="bg-successcontainer" label="Back"></golden-button>
-<golden-button theme="bg-onsuccesscontainer" start-icon="arrow_forward" end-icon="home" label="Back"></golden-button>
+<golden-button theme="bg-successcontainer large" start-icon="arrow_forward" end-icon="home" label="Label"></golden-button>
+<golden-button theme="bg-onsuccesscontainer large" start-icon="arrow_forward" end-icon="home" label="Label"></golden-button>
 
 <div style="height: 10px"></div>
-<golden-button theme="bg-successcontainer large" label="Back"></golden-button>
-<golden-button theme="bg-onsuccesscontainer large" start-icon="arrow_forward" end-icon="arrow_back" label="Back"></golden-button>
+<div class="title1">Fixed</div>
+<golden-button theme="bg-ontertiaryfixed large" start-icon="arrow_forward" end-icon="home" label="Label"></golden-button>
+<golden-button theme="bg-ontertiaryfixedvariant large" start-icon="arrow_forward" end-icon="home" label="Label"></golden-button>
+<div style="height: 10px"></div>
+<golden-button theme="bg-onprimaryfixed large" start-icon="arrow_forward" end-icon="home" label="Label"></golden-button>
+<golden-button theme="bg-onprimaryfixedvariant large" start-icon="arrow_forward" end-icon="home" label="Label"></golden-button>
 `
 /*  Article: data-type: horizontal, vertical
  *  Style header, footer
