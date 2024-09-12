@@ -40,7 +40,7 @@ class ThemeSwitcher extends HTMLElement {
 </style>
 <button id="theme"
     data-theme-picker 
-    class="button start-icon end-icon bg-success"
+    class="button start-icon end-icon bg-primary"
     aria-label="${newCta}">
     <div class="button__content">
         <div class=\"material-symbols-filled\">light_mode</div>
