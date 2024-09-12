@@ -19,8 +19,13 @@
 }
 
 
-.outline {
+.button.outline {
+    background-color: transparent;
     border: 1px solid var(--outlinevariant_lkv, #727272);
+}
+
+.button.text {
+    background-color: transparent;
 }
 
 .button.start-icon {
