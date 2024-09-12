@@ -5,7 +5,6 @@
  *    without disabling user zoom.
  */
 html {
-    font-family: Inter, sans-serif;
     /* 1 */
     -ms-text-size-adjust: 100%;
     /* 2 */
@@ -19,6 +18,9 @@ html {
  */
 body {
     margin: 0;
+    background-color: var(--background_lkv);
+    color: var(--onbackground_lkv);
+    font-family: Inter, sans-serif;
 }
 
 /* HTML5 display definitions
