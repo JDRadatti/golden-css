@@ -134,83 +134,57 @@ document.querySelector('#button').innerHTML = `
 <golden-button theme="bg-primary large" start-icon="arrow_forward" end-icon="home" label="Label"></golden-button>
 <golden-button theme="bg-onprimary large outline" start-icon="arrow_forward" end-icon="home" label="Label"></golden-button>
 <golden-button theme="bg-onprimary large text" start-icon="arrow_forward" end-icon="home" label="Label"></golden-button>
+<golden-button theme="bg-primarycontainer large" start-icon="arrow_forward" end-icon="home" label="Label"></golden-button>
+<golden-button theme="bg-onprimarycontainer large" start-icon="arrow_forward" end-icon="home" label="Label"></golden-button>
 
 <div style="height: 10px"></div>
 <golden-button theme="bg-secondary large" start-icon="arrow_forward" end-icon="home" label="Label"></golden-button>
 <golden-button theme="bg-onsecondary large outline" start-icon="arrow_forward" end-icon="home" label="Label"></golden-button>
 <golden-button theme="bg-onsecondary large text" start-icon="arrow_forward" end-icon="home" label="Label"></golden-button>
+<golden-button theme="bg-secondarycontainer large" start-icon="arrow_forward" end-icon="home" label="Label"></golden-button>
+<golden-button theme="bg-onsecondarycontainer large" start-icon="arrow_forward" end-icon="home" label="Label"></golden-button>
 
 <div style="height: 10px"></div>
 <golden-button theme="bg-tertiary large" start-icon="arrow_forward" end-icon="home" label="Label"></golden-button>
 <golden-button theme="bg-ontertiary large outline" start-icon="arrow_forward" end-icon="home" label="Label"></golden-button>
 <golden-button theme="bg-ontertiary large text" start-icon="arrow_forward" end-icon="home" label="Label"></golden-button>
+<golden-button theme="bg-tertiarycontainer large" start-icon="arrow_forward" end-icon="home" label="Label"></golden-button>
+<golden-button theme="bg-ontertiarycontainer large" start-icon="arrow_forward" end-icon="home" label="Label"></golden-button>
 
 <div style="height: 10px"></div>
 <golden-button theme="bg-error large" start-icon="arrow_forward" end-icon="home" label="Label"></golden-button>
 <golden-button theme="bg-onerror large outline" start-icon="arrow_forward" end-icon="home" label="Label"></golden-button>
 <golden-button theme="bg-onerror large text" start-icon="arrow_forward" end-icon="home" label="Label"></golden-button>
+<golden-button theme="bg-errorcontainer large" start-icon="arrow_forward" end-icon="home" label="Label"></golden-button>
+<golden-button theme="bg-onerrorcontainer large" start-icon="arrow_forward" end-icon="home" label="Label"></golden-button>
 
 <div style="height: 10px"></div>
 <golden-button theme="bg-warning large" start-icon="arrow_forward" end-icon="home" label="Label"></golden-button>
 <golden-button theme="bg-onwarning large outline" start-icon="arrow_forward" end-icon="home" label="Label"></golden-button>
 <golden-button theme="bg-onwarning large text" start-icon="arrow_forward" end-icon="home" label="Label"></golden-button>
+<golden-button theme="bg-warningcontainer large" start-icon="arrow_forward" end-icon="home" label="Label"></golden-button>
+<golden-button theme="bg-onwarningcontainer large" start-icon="arrow_forward" end-icon="home" label="Label"></golden-button>
 
 <div style="height: 10px"></div>
 <golden-button theme="bg-info large" start-icon="arrow_forward" end-icon="home" label="Label"></golden-button>
 <golden-button theme="bg-oninfo large outline" start-icon="arrow_forward" end-icon="home" label="Label"></golden-button>
 <golden-button theme="bg-oninfo large text" start-icon="arrow_forward" end-icon="home" label="Label"></golden-button>
+<golden-button theme="bg-infocontainer large" start-icon="arrow_forward" end-icon="home" label="Label"></golden-button>
+<golden-button theme="bg-oninfocontainer large" start-icon="arrow_forward" end-icon="home" label="Label"></golden-button>
 
 <div style="height: 10px"></div>
 <golden-button theme="bg-success large" start-icon="arrow_forward" end-icon="home" label="Label"></golden-button>
 <golden-button theme="bg-onsuccess large outline" start-icon="arrow_forward" end-icon="home" label="Label"></golden-button>
 <golden-button theme="bg-onsuccess large text" start-icon="arrow_forward" end-icon="home" label="Label"></golden-button>
-
-<div style="height: 10px"></div>
-<golden-button theme="bg-surfacecontainerhighest large" start-icon="arrow_forward" end-icon="home" label="Label"></golden-button>
-<golden-button theme="bg-surfacecontainerhigh large" start-icon="arrow_forward" end-icon="home" label="Label"></golden-button>
-<golden-button theme="bg-surface large" start-icon="arrow_forward" end-icon="home" label="Label"></golden-button>
-<golden-button theme="bg-surfacebright large" start-icon="arrow_forward" end-icon="home" label="Label"></golden-button>
-<golden-button theme="bg-surfacecontainerlowest large" start-icon="arrow_forward" end-icon="home" label="Label"></golden-button>
-
-<div style="height: 10px"></div>
-<golden-button theme="bg-inversesurface large" start-icon="arrow_forward" end-icon="home" label="Label"></golden-button>
-<golden-button theme="bg-onsurface large" start-icon="arrow_forward" end-icon="home" label="Label"></golden-button>
-
-<div style="height: 100px"></div>
-<golden-button theme="bg-primarycontainer large" start-icon="arrow_forward" end-icon="home" label="Label"></golden-button>
-<golden-button theme="bg-onprimarycontainer large" start-icon="arrow_forward" end-icon="home" label="Label"></golden-button>
-
-<div style="height: 10px"></div>
-<golden-button theme="bg-secondarycontainer large" start-icon="arrow_forward" end-icon="home" label="Label"></golden-button>
-<golden-button theme="bg-onsecondarycontainer large" start-icon="arrow_forward" end-icon="home" label="Label"></golden-button>
-
-<div style="height: 10px"></div>
-<golden-button theme="bg-tertiarycontainer large" start-icon="arrow_forward" end-icon="home" label="Label"></golden-button>
-<golden-button theme="bg-ontertiarycontainer large" start-icon="arrow_forward" end-icon="home" label="Label"></golden-button>
-
-<div style="height: 10px"></div>
-<golden-button theme="bg-errorcontainer large" start-icon="arrow_forward" end-icon="home" label="Label"></golden-button>
-<golden-button theme="bg-onerrorcontainer large" start-icon="arrow_forward" end-icon="home" label="Label"></golden-button>
-
-<div style="height: 10px"></div>
-<golden-button theme="bg-warningcontainer large" start-icon="arrow_forward" end-icon="home" label="Label"></golden-button>
-<golden-button theme="bg-onwarningcontainer large" start-icon="arrow_forward" end-icon="home" label="Label"></golden-button>
-
-<div style="height: 10px"></div>
-<golden-button theme="bg-infocontainer large" start-icon="arrow_forward" end-icon="home" label="Label"></golden-button>
-<golden-button theme="bg-oninfocontainer large" start-icon="arrow_forward" end-icon="home" label="Label"></golden-button>
-
-<div style="height: 10px"></div>
 <golden-button theme="bg-successcontainer large" start-icon="arrow_forward" end-icon="home" label="Label"></golden-button>
 <golden-button theme="bg-onsuccesscontainer large" start-icon="arrow_forward" end-icon="home" label="Label"></golden-button>
 
 <div style="height: 10px"></div>
-<div class="title1">Fixed</div>
-<golden-button theme="bg-ontertiaryfixed large" start-icon="arrow_forward" end-icon="home" label="Label"></golden-button>
-<golden-button theme="bg-ontertiaryfixedvariant large" start-icon="arrow_forward" end-icon="home" label="Label"></golden-button>
-<div style="height: 10px"></div>
-<golden-button theme="bg-onprimaryfixed large" start-icon="arrow_forward" end-icon="home" label="Label"></golden-button>
-<golden-button theme="bg-onprimaryfixedvariant large" start-icon="arrow_forward" end-icon="home" label="Label"></golden-button>
+<golden-button theme="bg-surfacecontainerhigh large" start-icon="arrow_forward" end-icon="home" label="Label"></golden-button>
+<golden-button theme="bg-surfacecontainerhigh large outline" start-icon="arrow_forward" end-icon="home" label="Label"></golden-button>
+<golden-button theme="bg-surfacecontainerhigh large text" start-icon="arrow_forward" end-icon="home" label="Label"></golden-button>
+<golden-button theme="bg-surface large" start-icon="arrow_forward" end-icon="home" label="Label"></golden-button>
+<golden-button theme="bg-inversesurface large" start-icon="arrow_forward" end-icon="home" label="Label"></golden-button>
 `
 /*  Article: data-type: horizontal, vertical
  *  Style header, footer
