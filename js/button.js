@@ -29,7 +29,7 @@ class GoldenButton extends HTMLElement {
     <div class="state-layer"></div>
     <div class="button__content">
         ${this.startIcon}
-        <span class="body__bold p-top__2xs">${this.label}</span>
+        ${this.label}
         ${this.endIcon}
     </div>
 </a>
@@ -48,7 +48,7 @@ class GoldenButton extends HTMLElement {
                 this.endIcon = `<div class=\"material-symbols-outlined\">${newValue}</div>`
                 break
             case "label":
-                this.label = newValue
+                this.label = `<span class="body__bold p-top__2xs">${newValue}</span>`
                 break
             case "theme":
                 this.theme = newValue
