@@ -1,0 +1,82 @@
+.card {
+    --padding: 1em;
+    --corrected-padding: 1em;
+    padding: var(--corrected-padding) var(--padding) var(--padding);
+    border-radius: var(--corrected-padding);
+    overflow: hidden;
+    text-decoration: none;
+}
+
+.card.outline {
+    background-color: transparent;
+    border: 1px solid var(--outlinevariant_lkv, #727272);
+}
+
+.card.text {
+    background-color: transparent;
+}
+
+.card.clickable {
+    cursor: pointer;
+    position: relative;
+}
+
+.card.scalefactor__display1 {
+    --corrected-padding: 3.3294em;
+    --padding: 4.235em;
+}
+
+.card.scalefactor__display2 {
+    --corrected-padding: 2.05818em;
+    --padding: 2.618em;
+}
+
+.card.scalefactor__title1 {
+    --corrected-padding: 1.61792em;
+    --padding: 2.058em;
+}
+
+.card.scalefactor__title2 {
+    --corrected-padding: 1.27201em;
+    --padding: 1.618em;
+}
+
+.card.scalefactor__title3 {
+    --corrected-padding: 1em;
+    --padding: 1.272em;
+}
+
+.card.scalefactor__heading {
+    --corrected-padding: .887579em;
+    --padding: 1.129em;
+}
+
+.card.scalefactor__subheading {
+    --corrected-padding: .695755em;
+    --padding: .885em;
+}
+
+.card.scalefactor__body {
+    --corrected-padding: .786164em;
+    --padding: 1em;
+}
+
+.card.scalefactor__callout {
+    --corrected-padding: .741352em;
+    --padding: .943em;
+}
+
+.card.scalefactor__label {
+    --corrected-padding: .656447em;
+    --padding: .835em;
+}
+
+.card.scalefactor__caption {
+    --corrected-padding: .617925em;
+    --padding: .786em;
+}
+
+.card.scalefactor__overline {
+    --corrected-padding: .617925em;
+    --padding: .786em;
+}
