@@ -58,7 +58,7 @@ ${end}
                 this.endIcon = `<div class=\"material-symbols-outlined\">${newValue}</div>`
                 break
             case "label":
-                this.label = `<span class="body__bold p-top__2xs">${newValue}</span>`
+                this.label = `<div class="body__bold p-top__2xs">${newValue}</div>`
                 break
             case "theme":
                 this.theme = newValue
