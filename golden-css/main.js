@@ -38,6 +38,7 @@ document.querySelector('#theme-switch').innerHTML = `
 `
 
 document.querySelector('#card').innerHTML = `
+<div class="flow__sm">
 <div class="card scalefactor__display1 bg-primary">
     <div class="state-layer"></div>
     <p class="display1__bold m-bottom__xs">Display 1</p>
@@ -118,6 +119,7 @@ document.querySelector('#card').innerHTML = `
     <div class="state-layer"></div>
     <p class="heading__bold m-bottom__xs">Overline</p>
     <div class="util__caption">.card.scaleFactor__heading.text.clickable</div>
+</div>
 </div>
 `
 
