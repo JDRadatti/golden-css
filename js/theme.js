@@ -38,14 +38,11 @@ class ThemeSwitcher extends HTMLElement {
     right: 1em;
 }
 </style>
-<button id="theme"
-    data-theme-picker 
-    class="button start-icon end-icon bg-primary"
+<div style="position: relative">
+<golden-button id="theme" start-icon="light_mode" end-icon="dark_mode"
+    theme="bg-primary"
     aria-label="${newCta}">
-    <div class="button__content">
-        <div class=\"material-symbols-filled\">light_mode</div>
-        <div class=\"material-symbols-filled\">dark_mode</div>
-    </div>
+</div>
 </button>
         `;
     }
