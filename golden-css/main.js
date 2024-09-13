@@ -3,6 +3,7 @@ import '../js/button.js'
 import '../js/theme.js'
 
 document.querySelector('#app').innerHTML = `
+<div class="grid">
   <div>
     <div class="display1">Display 1</div>
     <div class="display2">Display 2</div>
@@ -31,6 +32,7 @@ document.querySelector('#app').innerHTML = `
     <p class="caption__bold">Caption</p>
     <p class="overline__bold">Overline</p>
   </div>
+</div>
 `
 
 document.querySelector('#theme-switch').innerHTML = `
