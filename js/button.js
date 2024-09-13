@@ -24,15 +24,25 @@ class GoldenButton extends HTMLElement {
         }
         this.theme += icons
 
+        var start = ""
+        var end = ""
+        if (this.href != "") {
+            start = `<a href=\"${this.href}\"`
+            end = "</a>"
+        } else {
+            start = `<button`
+            end = "</button>"
+        }
+
         this.innerHTML = `
-<a href=\"${this.href}\" class=\"button ${this.theme}\"> 
+${start} class=\"button ${this.theme}\"> 
     <div class="state-layer"></div>
     <div class="button__content">
         ${this.startIcon}
         ${this.label}
         ${this.endIcon}
     </div>
-</a>
+${end}
 `
     }
 
