@@ -42,59 +42,49 @@ document.querySelector('#theme-switch').innerHTML = `
 document.querySelector('#card').innerHTML = `
 <div class="flow__sm">
 <div class="card scalefactor__display1 bg-primary">
-    <div class="state-layer"></div>
     <p class="display1__bold m-bottom__xs">Display 1</p>
     <div class="util__caption">.card.scaleFactor__display1</div>
 </div>
 <div class="card scalefactor__display2 bg-primary">
-    <div class="state-layer"></div>
     <p class="display2__bold m-bottom__xs">Display 2</p>
     <div class="util__caption">.card.scaleFactor__display2</div>
 </div>
 
 <div class="card scalefactor__title1 bg-primary">
-    <div class="state-layer"></div>
     <p class="title1__bold m-bottom__xs">Title 1</p>
     <div class="util__caption">.card.scaleFactor__title1</div>
 </div>
 <div class="card scalefactor__title2 bg-primary">
-    <div class="state-layer"></div>
     <p class="title2__bold m-bottom__xs">Title 2</p>
     <div class="util__caption">.card.scaleFactor__title2</div>
 </div>
 
 <div class="card scalefactor__title3 bg-primary">
-    <div class="state-layer"></div>
     <p class="title3__bold m-bottom__xs">Title 3</p>
     <div class="util__caption">.card.scaleFactor__title3</div>
 </div>
 
 <div class="card scalefactor__heading bg-primary">
-    <div class="state-layer"></div>
     <p class="heading__bold m-bottom__xs">Heading</p>
     <div class="util__caption">.card.scaleFactor__heading</div>
 </div>
 
 <div class="card scalefactor__subheading bg-primary">
-    <div class="state-layer"></div>
     <p class="subheading__bold m-bottom__xs">Subheading</p>
     <div class="util__caption">.card.scaleFactor__subheading</div>
 </div>
 
 <div class="card scalefactor__body bg-primary">
-    <div class="state-layer"></div>
     <p class="body__bold m-bottom__xs">Body</p>
     <div class="util__caption">.card.scaleFactor__body</div>
 </div>
 
 <div class="card scalefactor__callout bg-primary">
-    <div class="state-layer"></div>
     <p class="callout__bold m-bottom__xs">Callout</p>
     <div class="util__caption">.card.scaleFactor__callout</div>
 </div>
 
 <div class="card scalefactor__label bg-primary">
-    <div class="state-layer"></div>
     <p class="label__bold m-bottom__xs">Label</p>
     <div class="util__caption">.card.scaleFactor__label</div>
 </div>
@@ -106,13 +96,11 @@ document.querySelector('#card').innerHTML = `
 </div>
 
 <div class="card scalefactor__heading bg-onprimary outline">
-    <div class="state-layer"></div>
     <p class="heading__bold m-bottom__xs">Heading</p>
     <div class="util__caption">.card.scaleFactor__heading.outline</div>
 </div>
 
 <div class="card scalefactor__heading bg-onprimary text">
-    <div class="state-layer"></div>
     <p class="heading__bold m-bottom__xs">Overline</p>
     <div class="util__caption">.card.scaleFactor__heading.text</div>
 </div>
@@ -269,5 +257,20 @@ document.querySelector('#button').innerHTML = `
 /*  Article: data-type: horizontal, vertical
  *  Style header, footer
  *
- *
+ * TODO:
+ * Table
+ * toggle
+ * slider
+ * pie chart
+ * tab menu
+ * dropdown 
+ * tooltip
+ * navbar
+ * input (search)
+ * text link
+ * side menu
+ * separation lines
+ * icons
+ * block quote
+ * menu for customizing (download updated css)
  * */
