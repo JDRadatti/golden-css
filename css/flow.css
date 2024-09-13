@@ -1,0 +1,30 @@
+@import "globals.css";
+
+.flow__2xs>*+* {
+    padding-bottom: .617925em;
+}
+
+.flow__xs>*+* {
+    padding-bottom: .887579em;
+}
+
+.flow__sm>*+* {
+    padding-bottom: 1.27201em;
+}
+
+.flow__md>*+* {
+    padding-bottom: 1.61792em;
+    ;
+}
+
+.flow__lg>*+* {
+    padding-bottom: 2.05818em;
+}
+
+.flow__xl>*+* {
+    padding-bottom: 3.3294em;
+}
+
+.flow__2xl>*+* {
+    padding-bottom: 4.235em;
+}
