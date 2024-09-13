@@ -19,7 +19,3 @@
 *:active>.state-layer {
     opacity: 0.14;
 }
-
-*:focus>.state-layer {
-    opacity: 0.14;
-}
