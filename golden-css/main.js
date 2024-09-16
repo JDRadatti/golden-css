@@ -253,13 +253,20 @@ document.querySelector('#button').innerHTML = `
 <golden-button theme="bg-surfacecontainerhigh large text" start-icon="arrow_forward" end-icon="home" label="Label"></golden-button>
 <golden-button theme="bg-surface large" start-icon="arrow_forward" end-icon="home" label="Label"></golden-button>
 <golden-button theme="bg-inversesurface large" start-icon="arrow_forward" end-icon="home" label="Label"></golden-button>
+
+<div style="height: 10px"></div>
+<golden-button theme="bg-surfacecontainerhigh large" start-icon="arrow_forward" end-icon="home" label="Label"></golden-button>
+<golden-button theme="bg-surfacecontainerhigh large outline" start-icon="arrow_forward" end-icon="home" label="Label"></golden-button>
+<golden-button theme="bg-surfacecontainerhigh large text" start-icon="arrow_forward" end-icon="home" label="Label"></golden-button>
+<golden-button theme="bg-surface large" start-icon="arrow_forward" end-icon="home" label="Label"></golden-button>
+<golden-button theme="bg-inversesurface large" start-icon="arrow_forward" end-icon="home" label="Label"></golden-button>
 `
 /*  Article: data-type: horizontal, vertical
  *  Style header, footer
  *
  * TODO:
  * Table
- * toggle
+ * toggle(switch)
  * slider
  * pie chart
  * tab menu
@@ -273,4 +280,106 @@ document.querySelector('#button').innerHTML = `
  * icons
  * block quote
  * menu for customizing (download updated css)
+ * copy 
+ * table of content
+ * accordion
+ * label 
+ * snack bar
+ * role="group"
+ * loading
+ * modal
+ * progress
+ * validation state
+ * file input 
+ * range
+ * date input
+ * textarea
  * */
+
+document.querySelector('#checkbox').innerHTML = `
+<fieldset>
+  <legend>Language preferences:</legend>
+  <label>
+    <input type="checkbox" name="english" checked />
+    English
+  </label>
+  <label>
+    <input type="checkbox" name="french" checked />
+    French
+  </label>
+  <label>
+    <input type="checkbox" name="mandarin" />
+    Mandarin
+  </label>
+  <label>
+    <input type="checkbox" name="thai" />
+    Thai
+  </label>
+  <label aria-disabled="true">
+    <input type="checkbox" name="dothraki" disabled />
+    Dothraki
+  </label>
+</fieldset>
+
+<fieldset>
+  <legend>Language preferences:</legend>
+  <input type="checkbox" id="hindi" name="hindi" checked />
+  <label for="hindi">Hindi</label>
+  <input type="checkbox" id="swahili" name="swahili" />
+  <label for="swahili">Swahili</label>
+  <input type="checkbox" id="navi" name="navi" disabled />
+  <label for="navi" aria-disabled="true">Na'vi</label>
+</fieldset>
+`
+
+document.querySelector('#radio').innerHTML = `
+<fieldset>
+  <legend>Language preference:</legend>
+  <label>
+    <input type="radio" name="language" checked />
+    English
+  </label>
+  <label>
+    <input type="radio" name="language" />
+    French
+  </label>
+  <label>
+    <input type="radio" name="language" />
+    Mandarin
+  </label>
+  <label>
+    <input type="radio" name="language" />
+    Thai
+  </label>
+  <label aria-disabled="true">
+    <input type="radio" name="language" disabled />
+    Dothraki
+  </label>
+</fieldset>
+
+<fieldset>
+  <legend>Language preference:</legend>
+  <input id="english" type="radio" name="language2" checked />
+  <label for="english">English</label>
+  <input id="french" type="radio" name="language2" />
+  <label for="french"> French </label>
+  <input id="mandarin" type="radio" name="language2" />
+  <label for="mandarin">Mandarin</label>
+  <input id="thai" type="radio" name="language2" />
+  <label for="thai">Thai</label>
+  <input type="radio" name="language2" disabled />
+  <label for="dothraki" aria-disabled="true">Dothraki</label>
+</fieldset>
+`
+document.querySelector('#switch').innerHTML = `
+<fieldset>
+  <label>
+    <input name="terms" type="checkbox" role="switch" />
+    I agree to the Terms
+  </label>
+  <label>
+    <input name="opt-in" type="checkbox" role="switch" checked />
+    Receive news and offers
+  </label>
+</fieldset>
+`
