@@ -11,7 +11,7 @@
 
 .card.outline {
     background-color: transparent;
-    border: 1px solid var(--outlinevariant_lkv, #727272);
+    border: var(--border);
 }
 
 .card.text {

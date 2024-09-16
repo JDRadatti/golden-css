@@ -232,6 +232,11 @@
     --surfacecontainer_lkv: var(--light__surfacecontainer_lkv);
     --surfacecontainerhigh_lkv: var(--light__surfacecontainerhigh_lkv);
     --surfacecontainerhighest_lkv: var(--light__surfacecontainerhighest_lkv);
+
+    --border-width: 1px;
+    --border-color: var(--outlinevariant_lkv, #727272);
+    --border: var(--border-width) solid var(--border-color);
+
     color-scheme: light;
 }
 
