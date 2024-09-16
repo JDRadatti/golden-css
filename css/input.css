@@ -11,7 +11,7 @@
     border-radius: 0.2em;
     vertical-align: middle;
     cursor: pointer;
-    transition: 0.2s background-color ease-out;
+    transition: 0.2s background-color ease-in-out;
 }
 
 [type="radio"] {
@@ -74,4 +74,32 @@ label:not(input) {
 
 fieldset:has(label input) {
     flex-direction: column;
+}
+
+[role="switch"] {
+    transition: 0.2s background-position ease-in-out,
+        0.2s background-color ease-in-out;
+}
+
+[role="switch"]:checked,
+[role="switch"]:checked:active,
+[role="switch"]:checked:focus,
+[role="switch"] {
+
+    background-color: var(--light__info_lkv);
+    border: var(--border-width) solid transparent;
+    background-image: var(--icon-circle);
+    background-position: 0.31em;
+    background-repeat: no-repeat;
+    background-size: 1.8em auto;
+    border-radius: 100em;
+    width: 2em;
+}
+
+[role="switch"]:active,
+[role="switch"]:focus,
+[role="switch"] {
+    background-position: -0.43em;
+    background-color: var(--border-color);
+    border-color: transparent;
 }
