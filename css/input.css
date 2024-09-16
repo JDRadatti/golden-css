@@ -44,7 +44,7 @@ label[aria-disabled="true"],
 [type="radio"]:checked:focus,
 [type="radio"]:checked:active {
     background-image: var(--icon-circle);
-    background-size: 1em;
+    background-size: 0.5em;
     border-radius: 100em;
 }
 
@@ -79,27 +79,29 @@ fieldset:has(label input) {
 [role="switch"] {
     transition: 0.2s background-position ease-in-out,
         0.2s background-color ease-in-out;
+    --switch-border-width: 0.1em;
+    --switch-color: transparent;
+    border: none !important;
+    background-color: var(--switch-color);
 }
 
 [role="switch"]:checked,
 [role="switch"]:checked:active,
 [role="switch"]:checked:focus,
 [role="switch"] {
-
-    background-color: var(--light__info_lkv);
-    border: var(--border-width) solid transparent;
+    --switch-color: var(--light__info_lkv);
     background-image: var(--icon-circle);
-    background-position: 0.31em;
+    background-position: 90% 50%;
     background-repeat: no-repeat;
-    background-size: 1.8em auto;
+    background-size: 1em;
     border-radius: 100em;
-    width: 2em;
+    width: 2.5em;
+    height: 1.25em;
 }
 
 [role="switch"]:active,
 [role="switch"]:focus,
 [role="switch"] {
-    background-position: -0.43em;
-    background-color: var(--border-color);
-    border-color: transparent;
+    background-position: 10% 50%;
+    --switch-color: var(--border-color);
 }

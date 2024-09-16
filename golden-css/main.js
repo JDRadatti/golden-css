@@ -373,7 +373,7 @@ document.querySelector('#radio').innerHTML = `
 `
 document.querySelector('#switch').innerHTML = `
 <fieldset>
-  <label>
+  <label class="display1">
     <input name="terms" type="checkbox" role="switch" />
     I agree to the Terms
   </label>
