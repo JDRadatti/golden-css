@@ -105,3 +105,47 @@ fieldset:has(label input) {
     background-position: 10% 50%;
     --switch-color: var(--border-color);
 }
+
+label {
+    position: relative;
+}
+
+label .icons {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 2.25em;
+    height: 1.25em;
+    user-select: none;
+}
+
+label .icons .material-symbols-outlined {
+    position: absolute;
+    top: -0.1em;
+}
+
+label .icons :nth-child(1 of .material-symbols-outlined) {
+    left: 0;
+    transform: scale(75%);
+}
+
+label .icons :nth-child(2 of .material-symbols-outlined) {
+    right: -0.01em;
+    transform: scale(75%);
+}
+
+[role="switch"]:checked+.icons :nth-child(1) {
+    visibility: visible;
+}
+
+[role="switch"]:checked+.icons :nth-child(2) {
+    visibility: hidden;
+}
+
+[role="switch"]+.icons :nth-child(1) {
+    visibility: hidden;
+}
+
+[role="switch"]+.icons :nth-child(2) {
+    visibility: visible;
+}
