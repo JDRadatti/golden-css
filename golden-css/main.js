@@ -376,8 +376,8 @@ document.querySelector('#switch').innerHTML = `
   <label class="display1 p-bottom__xs">
     <input name="terms" type="checkbox" role="switch"/>
     <div class="icons">
-        <div class="material-symbols-outlined">dark_mode</div>
-        <div class="material-symbols-outlined">light_mode</div>
+        <div class="material-symbols-filled">light_mode</div>
+        <div class="material-symbols-filled">dark_mode</div>
     </div>
     I agree to the Terms
   </label>
@@ -396,8 +396,8 @@ document.querySelector('#switch').innerHTML = `
     <input name="opt-in" type="checkbox" role="switch" checked />
     Receive news and offers
     <div class="icons">
-        <div class="material-symbols-outlined">dark_mode</div>
-        <div class="material-symbols-outlined">light_mode</div>
+        <div class="material-symbols-filled">dark_mode</div>
+        <div class="material-symbols-filled">light_mode</div>
     </div>
   </label>
 </fieldset>
