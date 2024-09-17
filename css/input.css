@@ -112,41 +112,40 @@ label {
 
 label .icons {
     position: absolute;
-    top: 0;
+    top: -0.115em;
     left: 0;
     width: 2.25em;
     height: 1.25em;
     user-select: none;
+    clip-path: rect(auto auto auto auto round 50em);
 }
 
 label .icons .material-symbols-outlined,
 label .icons .material-symbols-filled {
     position: absolute;
-    top: -0.1em;
+    transition: 0.2s left ease-in-out, 0.2s right ease-in-out;
 }
 
 label .icons :nth-child(1) {
-    left: 0;
     transform: scale(75%);
 }
 
 label .icons :nth-child(2) {
-    right: -0.01em;
     transform: scale(75%);
 }
 
 [role="switch"]:checked+.icons :nth-child(1) {
-    visibility: visible;
+    left: 0;
 }
 
 [role="switch"]:checked+.icons :nth-child(2) {
-    visibility: hidden;
+    right: -1em;
 }
 
 [role="switch"]+.icons :nth-child(1) {
-    visibility: hidden;
+    left: -1em;
 }
 
 [role="switch"]+.icons :nth-child(2) {
-    visibility: visible;
+    right: -0.01em;
 }
