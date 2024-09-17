@@ -118,6 +118,7 @@ label .icons {
     height: 1.25em;
     user-select: none;
     clip-path: rect(auto auto auto auto round 50em);
+    color: white;
 }
 
 label .icons .material-symbols-outlined,
