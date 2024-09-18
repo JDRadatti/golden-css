@@ -122,6 +122,7 @@ label .icons {
     width: 2.25em;
     height: 1.25em;
     user-select: none;
+    -webkit-user-select: none;
     clip-path: rect(auto auto auto auto round 50em);
     color: white;
 }
