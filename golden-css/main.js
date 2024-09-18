@@ -402,3 +402,17 @@ document.querySelector('#switch').innerHTML = `
   </label>
 </fieldset>
 `
+
+
+document.querySelector('#range').innerHTML = `
+<label class="title2">
+    Brightness
+    <output id="brightness">25</output>
+    <input type="range" oninput="brightness.value=value"/>
+</label>
+<label>
+    Contrast
+    <output id="contrast">25</output>
+    <input type="range" value="25" oninput="contrast.value=value"/>
+</label>
+`
