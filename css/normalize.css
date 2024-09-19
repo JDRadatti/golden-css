@@ -18,8 +18,8 @@ html {
  */
 body {
     margin: 0;
-    background-color: var(--background_lkv);
-    color: var(--onbackground_lkv);
+    background-color: var(--golden-background-color);
+    color: var(--golden-font-color);
     font-family: Inter, sans-serif;
 }
 

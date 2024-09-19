@@ -501,11 +501,11 @@
 }
 
 .rich-text {
-    color: var(--onsurface_lkv);
+    color: var(--golden-onsurface);
 }
 
 .rich-text h1 {
-    color: var(--onsurface_lkv);
+    color: var(--golden-onsurface);
     letter-spacing: -0.035em;
     margin-top: 0;
     margin-bottom: 1.129em;
@@ -580,18 +580,18 @@
 }
 
 .rich-text p {
-    color: var(--onsurfacevariant_lkv);
+    color: var(--golden-onsurfacevariant);
     margin-top: 1em;
     margin-bottom: 1em;
 }
 
 .rich-text a {
-    color: var(--primary_lkv);
+    color: var(--golden-primary);
     font-weight: 700;
 }
 
 .rich-text figcaption {
-    color: var(--onsurfacevariant_lkv);
+    color: var(--golden-onsurfacevariant);
     margin-top: 1em;
     margin-bottom: 1em;
     font-size: calc(1em / var(--halfstep));

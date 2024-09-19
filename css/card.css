@@ -11,7 +11,7 @@
 
 .card.outline {
     background-color: transparent;
-    border: var(--border);
+    border: var(--golden-border);
 }
 
 .card.text {

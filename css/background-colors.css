@@ -17,362 +17,362 @@ if there are any.
 
 
 .bg-primary {
-    background-color: var(--primary_lkv);
-    color: var(--onprimary_lkv);
-    --state-color: var(--onprimary_lkv);
+    background-color: var(--golden-primary);
+    color: var(--golden-onprimary);
+    --state-color: var(--golden-onprimary);
 }
 
 
 .bg-onprimary {
-    background-color: var(--onprimary_lkv);
-    color: var(--primary_lkv);
-    --state-color: var(--primary_lkv);
+    background-color: var(--golden-onprimary);
+    color: var(--golden-primary);
+    --state-color: var(--golden-primary);
 }
 
 .bg-primarycontainer {
-    background-color: var(--primarycontainer_lkv);
-    color: var(--onprimarycontainer_lkv);
-    --state-color: var(--onprimarycontainer_lkv);
+    background-color: var(--golden-primarycontainer);
+    color: var(--golden-onprimarycontainer);
+    --state-color: var(--golden-onprimarycontainer);
 }
 
 .bg-onprimarycontainer {
-    background-color: var(--onprimarycontainer_lkv);
-    color: var(--primarycontainer_lkv);
-    --state-color: var(--primarycontainer_lkv);
+    background-color: var(--golden-onprimarycontainer);
+    color: var(--golden-primarycontainer);
+    --state-color: var(--golden-primarycontainer);
 }
 
 .bg-secondary {
-    background-color: var(--secondary_lkv);
-    color: var(--onsecondary_lkv);
-    --state-color: var(--onsecondary_lkv);
+    background-color: var(--golden-secondary);
+    color: var(--golden-onsecondary);
+    --state-color: var(--golden-onsecondary);
 }
 
 .bg-onsecondary {
-    background-color: var(--onsecondary_lkv);
-    color: var(--secondary_lkv);
-    --state-color: var(--secondary_lkv);
+    background-color: var(--golden-onsecondary);
+    color: var(--golden-secondary);
+    --state-color: var(--golden-secondary);
 }
 
 .bg-secondarycontainer {
-    background-color: var(--secondarycontainer_lkv);
-    color: var(--onsecondarycontainer_lkv);
-    --state-color: var(--onsecondarycontainer_lkv);
+    background-color: var(--golden-secondarycontainer);
+    color: var(--golden-onsecondarycontainer);
+    --state-color: var(--golden-onsecondarycontainer);
 }
 
 .bg-onsecondarycontainer {
-    background-color: var(--onsecondarycontainer_lkv);
-    color: var(--secondarycontainer_lkv);
-    --state-color: var(--secondarycontainer_lkv);
+    background-color: var(--golden-onsecondarycontainer);
+    color: var(--golden-secondarycontainer);
+    --state-color: var(--golden-secondarycontainer);
 }
 
 .bg-tertiary {
-    background-color: var(--tertiary_lkv);
-    color: var(--ontertiary_lkv);
-    --state-color: var(--ontertiary_lkv);
+    background-color: var(--golden-tertiary);
+    color: var(--golden-ontertiary);
+    --state-color: var(--golden-ontertiary);
 }
 
 .bg-ontertiary {
-    background-color: var(--ontertiary_lkv);
-    color: var(--tertiary_lkv);
-    --state-color: var(--tertiary_lkv);
+    background-color: var(--golden-ontertiary);
+    color: var(--golden-tertiary);
+    --state-color: var(--golden-tertiary);
 }
 
 .bg-tertiarycontainer {
-    background-color: var(--tertiarycontainer_lkv);
-    color: var(--ontertiarycontainer_lkv);
-    --state-color: var(--ontertiarycontainer_lkv);
+    background-color: var(--golden-tertiarycontainer);
+    color: var(--golden-ontertiarycontainer);
+    --state-color: var(--golden-ontertiarycontainer);
 }
 
 .bg-ontertiarycontainer {
-    background-color: var(--ontertiarycontainer_lkv);
-    color: var(--tertiarycontainer_lkv);
-    --state-color: var(--tertiarycontainer_lkv);
+    background-color: var(--golden-ontertiarycontainer);
+    color: var(--golden-tertiarycontainer);
+    --state-color: var(--golden-tertiarycontainer);
 }
 
 .bg-error {
-    background-color: var(--error_lkv);
-    color: var(--onerror_lkv);
-    --state-color: var(--onerror_lkv);
+    background-color: var(--golden-error);
+    color: var(--golden-onerror);
+    --state-color: var(--golden-onerror);
 }
 
 .bg-onerror {
-    background-color: var(--onerror_lkv);
-    color: var(--error_lkv);
-    --state-color: var(--error_lkv);
+    background-color: var(--golden-onerror);
+    color: var(--golden-error);
+    --state-color: var(--golden-error);
 }
 
 .bg-errorcontainer {
-    background-color: var(--errorcontainer_lkv);
-    color: var(--onerrorcontainer_lkv);
-    --state-color: var(--onerrorcontainer_lkv);
+    background-color: var(--golden-errorcontainer);
+    color: var(--golden-onerrorcontainer);
+    --state-color: var(--golden-onerrorcontainer);
 }
 
 .bg-onerrorcontainer {
-    background-color: var(--onerrorcontainer_lkv);
-    color: var(--errorcontainer_lkv);
-    --state-color: var(--errorcontainer_lkv);
+    background-color: var(--golden-onerrorcontainer);
+    color: var(--golden-errorcontainer);
+    --state-color: var(--golden-errorcontainer);
 }
 
 .bg-background {
-    background-color: var(--background_lkv);
-    color: var(--onbackground_lkv);
-    --state-color: var(--onbackground_lkv);
+    background-color: var(--golden-background);
+    color: var(--golden-onbackground);
+    --state-color: var(--golden-onbackground);
 }
 
 .bg-onbackground {
-    background-color: var(--onbackground_lkv);
-    color: var(--background_lkv);
-    --state-color: var(--background_lkv);
+    background-color: var(--golden-onbackground);
+    color: var(--golden-background);
+    --state-color: var(--golden-background);
 }
 
 .bg-surface {
-    background-color: var(--surface_lkv);
-    color: var(--onsurface_lkv);
-    --state-color: var(--onsurface_lkv);
+    background-color: var(--golden-surface);
+    color: var(--golden-onsurface);
+    --state-color: var(--golden-onsurface);
 }
 
 .bg-onsurface {
-    background-color: var(--onsurface_lkv);
-    color: var(--surface_lkv);
-    --state-color: var(--surface_lkv);
+    background-color: var(--golden-onsurface);
+    color: var(--golden-surface);
+    --state-color: var(--golden-surface);
 }
 
 .bg-surfacevariant {
-    background-color: var(--surfacevariant_lkv);
-    color: var(--onsurfacevariant_lkv);
-    --state-color: var(--onsurfacevariant_lkv);
+    background-color: var(--golden-surfacevariant);
+    color: var(--golden-onsurfacevariant);
+    --state-color: var(--golden-onsurfacevariant);
 }
 
 .bg-onsurfacevariant {
-    background-color: var(--onsurfacevariant_lkv);
-    color: var(--surfacevariant_lkv);
-    --state-color: var(--surfacevariant_lkv);
+    background-color: var(--golden-onsurfacevariant);
+    color: var(--golden-surfacevariant);
+    --state-color: var(--golden-surfacevariant);
 }
 
 .bg-outline {
-    background-color: var(--outline_lkv);
-    color: var(--surface_lkv);
-    --state-color: var(--surface_lkv);
+    background-color: var(--golden-outline);
+    color: var(--golden-surface);
+    --state-color: var(--golden-surface);
 }
 
 .bg-outlinevariant {
-    background-color: var(--outlinevariant_lkv);
-    color: var(--onsurface_lkv);
-    --state-color: var(--onsurface_lkv);
+    background-color: var(--golden-outlinevariant);
+    color: var(--golden-onsurface);
+    --state-color: var(--golden-onsurface);
 }
 
 .bg-shadow {
-    background-color: var(--shadow_lkv);
-    color: var(--surface_lkv);
-    --state-color: var(--surface_lkv);
+    background-color: var(--golden-shadow);
+    color: var(--golden-surface);
+    --state-color: var(--golden-surface);
 }
 
 .bg-scrim {
-    background-color: var(--scrim_lkv);
-    color: var(--surface_lkv);
-    --state-color: var(--surface_lkv);
+    background-color: var(--golden-scrim);
+    color: var(--golden-surface);
+    --state-color: var(--golden-surface);
 }
 
 .bg-inversesurface {
-    background-color: var(--inversesurface_lkv);
-    color: var(--inverseonsurface_lkv);
-    --state-color: var(--inverseonsurface_lkv);
+    background-color: var(--golden-inversesurface);
+    color: var(--golden-inverseonsurface);
+    --state-color: var(--golden-inverseonsurface);
 }
 
 .bg-inverseonsurface {
-    background-color: var(--inverseonsurface_lkv);
-    color: var(--inversesurface_lkv);
-    --state-color: var(--inversesurface_lkv);
+    background-color: var(--golden-inverseonsurface);
+    color: var(--golden-inversesurface);
+    --state-color: var(--golden-inversesurface);
 }
 
 .bg-inverseprimary {
-    background-color: var(--inverseprimary_lkv);
-    color: var(--onprimarycontainer_lkv);
-    --state-color: var(--onprimarycontainer_lkv);
+    background-color: var(--golden-inverseprimary);
+    color: var(--golden-onprimarycontainer);
+    --state-color: var(--golden-onprimarycontainer);
 }
 
 .bg-success {
-    background-color: var(--success_lkv);
-    color: var(--onsuccess_lkv);
-    --state-color: var(--onsuccess_lkv);
+    background-color: var(--golden-success);
+    color: var(--golden-onsuccess);
+    --state-color: var(--golden-onsuccess);
 }
 
 .bg-successcontainer {
-    background-color: var(--successcontainer_lkv);
-    color: var(--onsuccesscontainer_lkv);
-    --state-color: var(--onsuccesscontainer_lkv);
+    background-color: var(--golden-successcontainer);
+    color: var(--golden-onsuccesscontainer);
+    --state-color: var(--golden-onsuccesscontainer);
 }
 
 .bg-onsuccess {
-    background-color: var(--onsuccess_lkv);
-    color: var(--success_lkv);
-    --state-color: var(--success_lkv);
+    background-color: var(--golden-onsuccess);
+    color: var(--golden-success);
+    --state-color: var(--golden-success);
 }
 
 .bg-onsuccesscontainer {
-    background-color: var(--onsuccesscontainer_lkv);
-    color: var(--successcontainer_lkv);
-    --state-color: var(--successcontainer_lkv);
+    background-color: var(--golden-onsuccesscontainer);
+    color: var(--golden-successcontainer);
+    --state-color: var(--golden-successcontainer);
 }
 
 .bg-warning {
-    background-color: var(--warning_lkv);
-    color: var(--onwarning_lkv);
-    --state-color: var(--onwarning_lkv);
+    background-color: var(--golden-warning);
+    color: var(--golden-onwarning);
+    --state-color: var(--golden-onwarning);
 }
 
 .bg-warningcontainer {
-    background-color: var(--warningcontainer_lkv);
-    color: var(--onwarningcontainer_lkv);
-    --state-color: var(--onwarningcontainer_lkv);
+    background-color: var(--golden-warningcontainer);
+    color: var(--golden-onwarningcontainer);
+    --state-color: var(--golden-onwarningcontainer);
 }
 
 .bg-onwarning {
-    background-color: var(--onwarning_lkv);
-    color: var(--warning_lkv);
-    --state-color: var(--warning_lkv);
+    background-color: var(--golden-onwarning);
+    color: var(--golden-warning);
+    --state-color: var(--golden-warning);
 }
 
 .bg-onwarningcontainer {
-    background-color: var(--onwarningcontainer_lkv);
-    color: var(--warningcontainer_lkv);
-    --state-color: var(--warningcontainer_lkv);
+    background-color: var(--golden-onwarningcontainer);
+    color: var(--golden-warningcontainer);
+    --state-color: var(--golden-warningcontainer);
 }
 
 .bg-info {
-    background-color: var(--info_lkv);
-    color: var(--oninfo_lkv);
-    --state-color: var(--oninfo_lkv);
+    background-color: var(--golden-info);
+    color: var(--golden-oninfo);
+    --state-color: var(--golden-oninfo);
 }
 
 .bg-infocontainer {
-    background-color: var(--infocontainer_lkv);
-    color: var(--oninfocontainer_lkv);
-    --state-color: var(--oninfocontainer_lkv);
+    background-color: var(--golden-infocontainer);
+    color: var(--golden-oninfocontainer);
+    --state-color: var(--golden-oninfocontainer);
 }
 
 .bg-oninfo {
-    background-color: var(--oninfo_lkv);
-    color: var(--info_lkv);
-    --state-color: var(--info_lkv);
+    background-color: var(--golden-oninfo);
+    color: var(--golden-info);
+    --state-color: var(--golden-info);
 }
 
 .bg-oninfocontainer {
-    background-color: var(--oninfocontainer_lkv);
-    color: var(--infocontainer_lkv);
-    --state-color: var(--infocontainer_lkv);
+    background-color: var(--golden-oninfocontainer);
+    color: var(--golden-infocontainer);
+    --state-color: var(--golden-infocontainer);
 }
 
 .bg-primaryfixed {
-    background-color: var(--primaryfixed_lkv);
-    color: var(--onprimaryfixed_lkv);
-    --state-color: var(--onprimaryfixed_lkv);
+    background-color: var(--golden-primaryfixed);
+    color: var(--golden-onprimaryfixed);
+    --state-color: var(--golden-onprimaryfixed);
 }
 
 .bg-primaryfixeddim {
-    background-color: var(--primaryfixeddim_lkv);
-    color: var(--onprimaryfixedvariant_lkv);
-    --state-color: var(--onprimaryfixedvariant_lkv);
+    background-color: var(--golden-primaryfixeddim);
+    color: var(--golden-onprimaryfixedvariant);
+    --state-color: var(--golden-onprimaryfixedvariant);
 }
 
 .bg-onprimaryfixed {
-    background-color: var(--onprimaryfixed_lkv);
-    color: var(--primaryfixed_lkv);
-    --state-color: var(--primaryfixed_lkv);
+    background-color: var(--golden-onprimaryfixed);
+    color: var(--golden-primaryfixed);
+    --state-color: var(--golden-primaryfixed);
 }
 
 .bg-onprimaryfixedvariant {
-    background-color: var(--onprimaryfixedvariant_lkv);
-    color: var(--primaryfixed_lkv);
-    --state-color: var(--primaryfixed_lkv);
+    background-color: var(--golden-onprimaryfixedvariant);
+    color: var(--golden-primaryfixed);
+    --state-color: var(--golden-primaryfixed);
 }
 
 .bg-secondaryfixed {
-    background-color: var(--secondaryfixed_lkv);
-    color: var(--onsecondaryfixed_lkv);
-    --state-color: var(--onsecondaryfixed_lkv);
+    background-color: var(--golden-secondaryfixed);
+    color: var(--golden-onsecondaryfixed);
+    --state-color: var(--golden-onsecondaryfixed);
 }
 
 .bg-secondaryfixeddim {
-    background-color: var(--secondaryfixeddim_lkv);
-    color: var(--onsecondaryfixedvariant_lkv);
-    --state-color: var(--onsecondaryfixedvariant_lkv);
+    background-color: var(--golden-secondaryfixeddim);
+    color: var(--golden-onsecondaryfixedvariant);
+    --state-color: var(--golden-onsecondaryfixedvariant);
 }
 
 .bg-onsecondaryfixed {
-    background-color: var(--onsecondaryfixed_lkv);
-    color: var(--secondaryfixed_lkv);
-    --state-color: var(--secondaryfixed_lkv);
+    background-color: var(--golden-onsecondaryfixed);
+    color: var(--golden-secondaryfixed);
+    --state-color: var(--golden-secondaryfixed);
 }
 
 .bg-onsecondaryfixedvariant {
-    background-color: var(--onsecondaryfixedvariant_lkv);
-    color: var(--secondaryfixed_lkv);
-    --state-color: var(--secondaryfixed_lkv);
+    background-color: var(--golden-onsecondaryfixedvariant);
+    color: var(--golden-secondaryfixed);
+    --state-color: var(--golden-secondaryfixed);
 }
 
 .bg-tertiaryfixed {
-    background-color: var(--tertiaryfixed_lkv);
-    color: var(--ontertiaryfixed_lkv);
-    --state-color: var(--ontertiaryfixed_lkv);
+    background-color: var(--golden-tertiaryfixed);
+    color: var(--golden-ontertiaryfixed);
+    --state-color: var(--golden-ontertiaryfixed);
 }
 
 .bg-tertiaryfixeddim {
-    background-color: var(--tertiaryfixeddim_lkv);
-    color: var(--ontertiaryfixedvariant_lkv);
-    --state-color: var(--ontertiaryfixedvariant_lkv);
+    background-color: var(--golden-tertiaryfixeddim);
+    color: var(--golden-ontertiaryfixedvariant);
+    --state-color: var(--golden-ontertiaryfixedvariant);
 }
 
 .bg-ontertiaryfixed {
-    background-color: var(--ontertiaryfixed_lkv);
-    color: var(--tertiaryfixed_lkv);
-    --state-color: var(--tertiaryfixed_lkv);
+    background-color: var(--golden-ontertiaryfixed);
+    color: var(--golden-tertiaryfixed);
+    --state-color: var(--golden-tertiaryfixed);
 }
 
 .bg-ontertiaryfixedvariant {
-    background-color: var(--ontertiaryfixedvariant_lkv);
-    color: var(--tertiaryfixed_lkv);
-    --state-color: var(--tertiaryfixed_lkv);
+    background-color: var(--golden-ontertiaryfixedvariant);
+    color: var(--golden-tertiaryfixed);
+    --state-color: var(--golden-tertiaryfixed);
 }
 
 .bg-surfacedim {
-    background-color: var(--surfacedim_lkv);
-    color: var(--onsurface_lkv);
-    --state-color: var(--onsurface_lkv);
+    background-color: var(--golden-surfacedim);
+    color: var(--golden-onsurface);
+    --state-color: var(--golden-onsurface);
 }
 
 .bg-surfacebright {
-    background-color: var(--surfacebright_lkv);
-    color: var(--onsurface_lkv);
-    --state-color: var(--onsurface_lkv);
+    background-color: var(--golden-surfacebright);
+    color: var(--golden-onsurface);
+    --state-color: var(--golden-onsurface);
 }
 
 .bg-surfacecontainerlowest {
-    background-color: var(--surfacecontainerlowest_lkv);
-    color: var(--onsurface_lkv);
-    --state-color: var(--onsurface_lkv);
+    background-color: var(--golden-surfacecontainerlowest);
+    color: var(--golden-onsurface);
+    --state-color: var(--golden-onsurface);
 }
 
 .bg-surfacecontainerlow {
-    background-color: var(--surfacecontainerlow_lkv);
-    color: var(--onsurface_lkv);
-    --state-color: var(--onsurface_lkv);
+    background-color: var(--golden-surfacecontainerlow);
+    color: var(--golden-onsurface);
+    --state-color: var(--golden-onsurface);
 }
 
 .bg-surfacecontainer {
-    background-color: var(--surfacecontainer_lkv);
-    color: var(--onsurface_lkv);
-    --state-color: var(--onsurface_lkv);
+    background-color: var(--golden-surfacecontainer);
+    color: var(--golden-onsurface);
+    --state-color: var(--golden-onsurface);
 }
 
 .bg-surfacecontainerhigh {
-    background-color: var(--surfacecontainerhigh_lkv);
-    color: var(--onsurface_lkv);
-    --state-color: var(--onsurface_lkv);
+    background-color: var(--golden-surfacecontainerhigh);
+    color: var(--golden-onsurface);
+    --state-color: var(--golden-onsurface);
 }
 
 .bg-surfacecontainerhighest {
-    background-color: var(--surfacecontainerhighest_lkv);
-    color: var(--onsurface_lkv);
-    --state-color: var(--onsurface_lkv);
+    background-color: var(--golden-surfacecontainerhighest);
+    color: var(--golden-onsurface);
+    --state-color: var(--golden-onsurface);
 }
