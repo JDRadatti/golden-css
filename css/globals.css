@@ -163,15 +163,6 @@
     --dark__surfacecontainerlow_lkv: #1b1b1f;
     --dark__outlinevariant_lkv: #45464f;
 
-    /* Make text look sharper */
-
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    font-smooth: never;
-
-    --icon-checkbox: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='rgb(255, 255, 255)' stroke-width='4' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='20 6 9 17 4 12'%3E%3C/polyline%3E%3C/svg%3E");
-    --icon-circle: url('data:image/svg+xml,<svg x="0" y="0" width="16px" height="16px" fill="%23e8eaed" xmlns="http://www.w3.org/2000/svg"><circle cx="8" cy="8" r="8" fill="%23FFFFFF"/></svg>');
-
     --background_lkv: var(--light__background_lkv);
     --onsurface_lkv: var(--light__onsurface_lkv);
     --primary_lkv: var(--light__primary_lkv);
@@ -233,11 +224,29 @@
     --surfacecontainerhigh_lkv: var(--light__surfacecontainerhigh_lkv);
     --surfacecontainerhighest_lkv: var(--light__surfacecontainerhighest_lkv);
 
+    color-scheme: light;
+
+    /* Make text look sharper */
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-smooth: never;
+
+    /* Icons */
+
+    --icon-checkbox: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='rgb(255, 255, 255)' stroke-width='4' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='20 6 9 17 4 12'%3E%3C/polyline%3E%3C/svg%3E");
+    --icon-circle: url('data:image/svg+xml,<svg x="0" y="0" width="16px" height="16px" fill="%23e8eaed" xmlns="http://www.w3.org/2000/svg"><circle cx="8" cy="8" r="8" fill="%23FFFFFF"/></svg>');
+
+    /* Semantic Variables 
+    *  naming: golden-[element]-[state]-[property]-[descriptor]
+    * */
+
     --border-width: 1px;
     --border-color: var(--outlinevariant_lkv, #727272);
     --border: var(--border-width) solid var(--border-color);
 
-    color-scheme: light;
+    --golden-border-radius-circle: 100em;
+    --golden-input-highlight: white;
 }
 
 [data-theme="light"] {

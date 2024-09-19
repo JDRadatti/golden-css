@@ -15,7 +15,20 @@
 }
 
 [type="radio"] {
-    border-radius: 100em;
+    border-radius: var(--golden-border-radius-circle);
+    position: relative;
+}
+
+[type="radio"]:checked::after {
+    content: " ";
+    position: absolute;
+    top: 22.5%;
+    right: 22.5%;
+    background-color: var(--golden-input-highlight);
+    height: 55%;
+    width: 55%;
+    border-radius: var(--golden-border-radius-circle);
+    z-index: 100;
 }
 
 
@@ -43,9 +56,8 @@ label[aria-disabled="true"],
 [type="radio"]:checked,
 [type="radio"]:checked:focus,
 [type="radio"]:checked:active {
-    background-image: var(--icon-circle);
     background-size: 0.5em;
-    border-radius: 100em;
+    border-radius: var(--golden-border-radius-circle);
 }
 
 [type="radio"]:focus,
@@ -94,18 +106,38 @@ fieldset:has(label [type="checkbox"]) {
     height: 1.25em;
     margin-top: 0;
     margin-bottom: 0.125em;
+    position: relative;
 }
+
+[role="switch"]::after {
+    transition: 0.2s left ease-in-out;
+    content: " ";
+    position: absolute;
+    background-color: var(--golden-input-highlight);
+    border-radius: var(--golden-border-radius-circle);
+    z-index: 100;
+
+    height: 1em;
+    width: 1em;
+    top: 10%;
+    left: 5.5%;
+}
+
+[role="switch"]:checked::after {
+    left: 50%;
+}
+
 
 [role="switch"]:checked,
 [role="switch"]:checked:active,
 [role="switch"]:checked:focus,
 [role="switch"] {
     --switch-color: var(--light__info_lkv);
-    background-image: var(--icon-circle);
+    background-image: none;
     background-position: 90% 50%;
     background-repeat: no-repeat;
     background-size: 1em;
-    border-radius: 100em;
+    border-radius: var(--golden-border-radius-circle);
 }
 
 [role="switch"]:active,
@@ -176,7 +208,7 @@ label:has([type="range"]) {
     width: 100%;
     height: 7px;
     background-color: var(--range-background-color);
-    border-radius: var(--2xl);
+    border-radius: var(--golden-border-radius-circle);
     border: none;
     box-shadow: none;
     display: flex;
@@ -188,7 +220,7 @@ label:has([type="range"]) {
     appearance: none;
     height: 25px;
     width: 25px;
-    border-radius: 100em;
+    border-radius: var(--golden-border-radius-circle);
     background-color: var(--range-slider-color);
     cursor: pointer;
     border: 2px solid var(--background_lkv);
@@ -199,7 +231,7 @@ label:has([type="range"]) {
     background-color: green;
     height: 25px;
     width: 25px;
-    border-radius: 100em;
+    border-radius: var(--golden-border-radius-circle);
     background-color: var(--range-slider-color);
     cursor: pointer;
     border: 2px solid var(--background_lkv);
