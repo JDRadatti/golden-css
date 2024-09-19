@@ -241,6 +241,8 @@
     *  naming: golden-[element]-[property]-[descriptor]-[state]
     * */
 
+    --golden-background-color: var(--background_lkv);
+
     --border-width: 1px;
     --border-color: var(--outlinevariant_lkv, #727272);
     --border: var(--border-width) solid var(--border-color);
@@ -256,6 +258,7 @@
     --golden-input-border-width: 3px;
     --golden-input-border: var(--golden-input-border-width) solid var(--golden-input-color-surface);
     --golden-input-border-active: var(--golden-input-border-width) solid var(--golden-input-color-active);
+    --golden-input-border-hidden: var(--golden-input-border-width) solid var(--golden-background-color);
     --golden-input-outline: var(--golden-input-border-width) solid var(--golden-input-color-accent);
 
 }
