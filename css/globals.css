@@ -238,7 +238,7 @@
     --icon-circle: url('data:image/svg+xml,<svg x="0" y="0" width="16px" height="16px" fill="%23e8eaed" xmlns="http://www.w3.org/2000/svg"><circle cx="8" cy="8" r="8" fill="%23FFFFFF"/></svg>');
 
     /* Semantic Variables 
-    *  naming: golden-[element]-[state]-[property]-[descriptor]
+    *  naming: golden-[element]-[property]-[descriptor]-[state]
     * */
 
     --border-width: 1px;
@@ -246,7 +246,13 @@
     --border: var(--border-width) solid var(--border-color);
 
     --golden-border-radius-circle: 100em;
-    --golden-input-highlight: white;
+
+    --golden-input-color-onsurface: white;
+    --golden-input-color-surfacevariant: var(--surfacevariant_lkv);
+    --golden-input-color-surface: var(--border-color);
+    --golden-input-color-active: var(--light__info_lkv);
+    --golden-input-color-accent: var(--dark__info_lkv);
+
 }
 
 [data-theme="light"] {
