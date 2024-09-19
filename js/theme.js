@@ -1,6 +1,5 @@
 function calculateSettingAsThemeString(localStorageTheme, systemSettingDark) {
     if (localStorageTheme !== null) {
-        console.log('theme', localStorageTheme)
         return localStorageTheme;
     }
 
@@ -15,6 +14,11 @@ const localStorageTheme = localStorage.getItem("theme");
 const systemSettingDark = window.matchMedia("(prefers-color-scheme: dark)");
 let currentThemeSetting = calculateSettingAsThemeString(localStorageTheme, systemSettingDark);
 document.documentElement.setAttribute("data-theme", currentThemeSetting);
+
+var state = ""
+if (currentThemeSetting == "light") {
+    state = "checked"
+}
 
 /// Button theme HTML 
 class ThemeSwitcher extends HTMLElement {
@@ -39,11 +43,16 @@ class ThemeSwitcher extends HTMLElement {
 }
 </style>
 <div style="position: relative">
-<golden-button id="theme" start-icon="light_mode" end-icon="dark_mode"
-    theme="bg-primary"
-    aria-label="${newCta}">
+<fieldset id="theme">
+  <label class="title1">
+    <input id="theme-input" name="terms" type="checkbox" role="switch" aria-label="${newCta}" ${state}/>
+    <div class="icons">
+        <div class="material-symbols-filled">light_mode</div>
+        <div class="material-symbols-filled">dark_mode</div>
+    </div>
+  </label>
+</fieldset>
 </div>
-</button>
         `;
     }
 }
@@ -51,26 +60,22 @@ class ThemeSwitcher extends HTMLElement {
 customElements.define('theme-switcher', ThemeSwitcher);
 
 // Theme switcher event listener
-const button = document.querySelector("#theme-switch");
 var newCta = "";
-if (button !== null) {
-    button.addEventListener("click", () => {
-        const newTheme = currentThemeSetting === "dark" ? "light" : "dark";
+const themeSwitch = document.querySelector("#theme-switch");
+if (themeSwitch !== null) {
+    themeSwitch.addEventListener("change", () => {
+        const themeInput = document.querySelector("#theme-input");
+        var newTheme = ""
+        if (themeInput.checked) {
+            newTheme = "light";
+        } else {
+            newTheme = "dark";
+        }
 
-        // update the button text
         newCta = newTheme === "dark" ? "Change to light theme" : "Change to dark theme";
-
-        // use an aria-label if you are omitting text on the button
-        // and using sun/moon icons, for example
-        button.setAttribute("aria-label", newCta);
-
-        // update theme attribute on HTML to switch theme in CSS
+        themeInput.setAttribute("aria-label", newCta);
         document.documentElement.setAttribute("data-theme", newTheme);
-
-        // update in local storage
         localStorage.setItem("theme", newTheme);
-
-        // update the currentThemeSetting in memory
         currentThemeSetting = newTheme;
     });
 }
