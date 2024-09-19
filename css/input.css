@@ -97,7 +97,6 @@ fieldset:has(label [type="checkbox"]) {
 [role="switch"] {
     transition: 0.2s background-position ease-in-out,
         0.2s background-color ease-in-out;
-    --switch-border-width: 0.1em;
     border: none !important;
     background-color: var(--golden-input-color);
     width: 2.25em;
