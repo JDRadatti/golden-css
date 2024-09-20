@@ -245,16 +245,17 @@
     --golden-font-color: var(--golden-onbackground);
     --golden-line-height: var(--wholestep);
 
-    --border-color: var(--golden-outlinevariant, #727272);
-    --golden-border: 1px solid var(--border-color);
-    --golden-border-transparent: 1px solid transparent;
+    --golden-border-color: var(--golden-outlinevariant, #727272);
+    --golden-border-width: 1px;
+    --golden-border: var(--golden-border-width) solid var(--golden-border-color);
+    --golden-border-transparent: var(--golden-border-width) solid transparent;
 
     --golden-border-radius: 0.2em;
     --golden-border-radius-circle: 100em;
 
     --golden-input-color-onsurface: white;
     --golden-input-color-surfacevariant: var(--golden-surfacevariant);
-    --golden-input-color-surface: var(--border-color);
+    --golden-input-color-surface: var(--golden-border-color);
     --golden-input-color-active: var(--light__info_lkv);
     --golden-input-color-accent: var(--dark__info_lkv);
 
