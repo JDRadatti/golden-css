@@ -20,23 +20,15 @@
 
     /*Increments*/
 
-    --wholestep: 1.618;
-    /* always equals the scalefactor */
-    --halfstep: 1.272;
-    /* always equals the sq. root of scalefactor */
-    --quarterstep: 1.128;
-    /* always equals the sq. root of halfstep */
-    --eighthstep: 1.061;
-    /* always equals the sq. root of quarterstep */
+    --wholestep: var(--scaleFactor);
+    --halfstep: sqrt(var(--wholestep));
+    --quarterstep: sqrt(var(--halfstep));
+    --eighthstep: sqrt(var(--quarterstep));
 
-    --wholestep-dec: 0.618;
-    /* equals wholestep - 1 */
-    --halfstep-dec: 0.272;
-    /* equals halfstep - 1 */
-    --quarterstep-dec: 0.128;
-    /* equals quarterstep - 1 */
-    --eighthstep-dec: 0.061;
-    /* equals eighthstep - 1 */
+    --wholestep-dec: calc(var(--wholestep) - 1);
+    --halfstep-dec: calc(var(--halfstep) - 1);
+    --quarterstep-dec: calc(var(--quarterstep) - 1);
+    --eighthstep-dec: calc(var(--eighthstep) - 1);
 
     /* Colors */
 
