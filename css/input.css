@@ -187,7 +187,7 @@ label .icons :nth-child(2) {
 }
 
 [role="switch"]+.icons :nth-child(2) {
-    right: -0.03em;
+    right: -0.02em;
 }
 
 label:has([type="range"]) {
