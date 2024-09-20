@@ -6,8 +6,8 @@
     grid-row-gap: var(--spacer);
     white-space: normal;
     word-break: keep-all;
-    border: 1px solid transparent;
-    border-radius: 100em;
+    border: var(--golden-border-transparent);
+    border-radius: var(--golden-border-radius-circle);
     justify-content: flex-start;
     align-items: center;
     padding: var(--spacer) 1em;
@@ -17,7 +17,6 @@
     overflow: hidden;
 
     --state-color: var(--golden-shadow);
-    --line-height: 1.618em;
 }
 
 
@@ -31,11 +30,11 @@
 }
 
 .button.start-icon {
-    padding-left: calc(var(--line-height) / 2.618);
+    padding-left: calc(calc(1em * var(--golden-line-height)) / 2.618);
 }
 
 .button.end-icon {
-    padding-right: calc(var(--line-height) / 2.618);
+    padding-right: calc(calc(1em * var(--golden-line-height)) / 2.618);
 }
 
 .button__content {
