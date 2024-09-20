@@ -99,7 +99,7 @@ fieldset:has(label [type="checkbox"]) {
         0.2s background-color ease-in-out;
     border: none !important;
     background-color: var(--golden-input-color);
-    width: 2.25em;
+    width: 2.35em;
     height: 1.25em;
     margin-top: 0;
     margin-bottom: 0.125em;
@@ -121,7 +121,7 @@ fieldset:has(label [type="checkbox"]) {
 }
 
 [role="switch"]:checked::after {
-    left: 50%;
+    left: 52.5%;
 }
 
 
@@ -152,11 +152,11 @@ label .icons {
     position: absolute;
     top: 0em;
     left: 0;
-    width: 2.25em;
+    width: 2.35em;
     height: 1.25em;
     user-select: none;
     -webkit-user-select: none;
-    clip-path: rect(auto auto auto auto round 50em);
+    clip-path: rect(auto auto auto auto round var(--golden-border-radius-circle));
     color: var(--golden-input-color-onsurface);
 }
 
@@ -187,7 +187,7 @@ label .icons :nth-child(2) {
 }
 
 [role="switch"]+.icons :nth-child(2) {
-    right: -0.01em;
+    right: -0.03em;
 }
 
 label:has([type="range"]) {

@@ -377,7 +377,7 @@ document.querySelector('#switch').innerHTML = `
     <input name="terms" type="checkbox" role="switch"/>
     <div class="icons">
         <div class="material-symbols-filled">light_mode</div>
-        <div class="material-symbols-filled">dark_mode</div>
+        <div class="material-symbols-filled">light_mode</div>
     </div>
     I agree to the Terms
   </label>
