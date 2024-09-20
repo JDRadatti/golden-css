@@ -243,10 +243,13 @@
 
     --golden-background-color: var(--golden-background);
     --golden-font-color: var(--golden-onbackground);
+    --golden-line-height: var(--wholestep);
 
     --border-color: var(--golden-outlinevariant, #727272);
     --golden-border: 1px solid var(--border-color);
+    --golden-border-transparent: 1px solid transparent;
 
+    --golden-border-radius: 0.2em;
     --golden-border-radius-circle: 100em;
 
     --golden-input-color-onsurface: white;

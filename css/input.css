@@ -7,7 +7,7 @@
     margin-top: -.125em;
     margin-inline-end: var(--xs);
     border: var(--golden-input-border);
-    border-radius: 0.2em;
+    border-radius: var(--golden-border-radius);
     vertical-align: middle;
     cursor: pointer;
     transition: 0.2s background-color ease-in-out;
