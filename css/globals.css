@@ -30,6 +30,9 @@
     --quarterstep-dec: calc(var(--quarterstep) - 1);
     --eighthstep-dec: calc(var(--eighthstep) - 1);
 
+    --lineHeightInEms: calc(1em * var(--wholestep));
+    --lineHeight: var(--wholestep);
+
     /* Colors */
 
     --light__background_lkv: #fefbff;
@@ -235,7 +238,6 @@
 
     --golden-background-color: var(--golden-background);
     --golden-font-color: var(--golden-onbackground);
-    --golden-line-height: var(--wholestep);
 
     --golden-border-color: var(--golden-outlinevariant, #727272);
     --golden-border-width: 1px;
