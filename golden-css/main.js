@@ -177,6 +177,7 @@ let colors = [
 var innerColors = `<style>
     .swab {
         position: relative;
+        padding: var(--md);
     }
 </style>
 <div class="title1">Colors</div>
@@ -186,9 +187,7 @@ for (let i in colors) {
     innerColors += `
 <div class=\"${colors[i]}\ swab"> 
     <div class="state-layer"></div>
-    <div class="button__content">
-        <span class="p-top__md p-bottom__md p-right__md">${colors[i]}</span>
-    </div>
+    <div class="button__content"> ${colors[i]} </div>
 </div>
 `
 }
