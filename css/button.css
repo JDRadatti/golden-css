@@ -2,15 +2,15 @@
 
 .button,
 button {
-    --a: calc(1em * var(--halfstep-dec) * var(--wholestep) * var(--quarterstep));
+    --a: calc(1em * pow(var(--wholestep-dec), 2) * var(--halfstep));
     --b: calc(1em * var(--wholestep-dec));
-    --c: calc(1em * var(--wholestep-dec) * var(--wholestep));
+    --c: 1em;
     grid-column-gap: var(--a);
     grid-row-gap: var(--a);
     white-space: normal;
     word-break: keep-all;
     border: var(--golden-border-transparent);
-    border-radius: var(--xl);
+    border-radius: calc(1em * var(--wholestep));
     padding: var(--a) var(--c);
     text-decoration: none;
     position: relative;
