@@ -239,8 +239,6 @@ document.querySelector('#button').innerHTML = `
  *
  * TODO:
  * Table
- * toggle(switch)
- * slider
  * pie chart
  * tab menu
  * dropdown 
@@ -264,7 +262,6 @@ document.querySelector('#button').innerHTML = `
  * progress
  * validation state
  * file input 
- * range
  * date input
  * textarea
  * */
