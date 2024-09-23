@@ -1,5 +1,4 @@
 import '../index.css'
-import '../js/button.js'
 import '../js/theme.js'
 
 document.querySelector('#app').innerHTML = `
