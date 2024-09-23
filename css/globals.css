@@ -31,7 +31,6 @@
     --eighthstep-dec: calc(var(--eighthstep) - 1);
 
     --lineHeightInEms: calc(1em * var(--wholestep));
-    --lineHeight: var(--wholestep);
 
     /* Colors */
 
