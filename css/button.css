@@ -2,15 +2,15 @@
 
 .button,
 button {
-    --a: calc(calc(1em * sqrt(var(--lineHeight))) / 2.618);
-    --b: calc(var(--lineHeightInEms) / 2.618);
-    --c: calc(var(--lineHeightInEms) / 1.272);
+    --a: calc(1em * var(--halfstep-dec) * var(--wholestep) * var(--quarterstep));
+    --b: calc(1em * var(--wholestep-dec));
+    --c: calc(1em * var(--wholestep-dec) * var(--wholestep));
     grid-column-gap: var(--a);
     grid-row-gap: var(--a);
     white-space: normal;
     word-break: keep-all;
     border: var(--golden-border-transparent);
-    border-radius: var(--golden-border-radius-circle);
+    border-radius: var(--xl);
     padding: var(--a) var(--c);
     text-decoration: none;
     position: relative;
@@ -80,5 +80,4 @@ a.button.large,
 button.large,
 .button.large {
     font-size: 1.272em;
-    --lineHeightInEms: 1.272em;
 }
