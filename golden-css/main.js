@@ -197,16 +197,16 @@ document.querySelector('#colors').innerHTML = innerColors
 
 document.querySelector('#button').innerHTML = `
 <div class="display__flex-h">
-    <a class="button bg-error">
+    <a class="button bg-primary">
         <div class="state-layer"></div>
         Back
     </a>
-    <a class="button bg-error start-icon">
+    <a class="button bg-primary start-icon">
         <div class="state-layer"></div>
         <div class="material-symbols-filled">arrow_forward</div>
         Back
     </a>
-    <a class="button bg-error start-icon end-icon">
+    <a class="button bg-primary start-icon end-icon">
         <div class="state-layer"></div>
         <div class="material-symbols-filled">home</div>
         Back
@@ -215,16 +215,16 @@ document.querySelector('#button').innerHTML = `
 </div>
 
 <div class="display__flex-h">
-    <a class="button bg-error large">
+    <a class="button bg-primary large">
         <div class="state-layer"></div>
         Back
     </a>
-    <a class="button bg-error large start-icon">
+    <a class="button bg-primary large start-icon">
         <div class="state-layer"></div>
         <div class="material-symbols-filled">arrow_forward</div>
         Back
     </a>
-    <a class="button bg-error large start-icon end-icon">
+    <a class="button bg-primary large start-icon end-icon">
         <div class="state-layer"></div>
         <div class="material-symbols-filled">arrow_forward</div>
         Back
