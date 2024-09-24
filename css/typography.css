@@ -463,12 +463,6 @@
     line-height: var(--halfstep);
 }
 
-@media screen and (max-width: 991px) {
-    body {
-        font-size: 1vw;
-    }
-}
-
 @media screen and (max-width: 767px) {
 
     .display1__bold,
