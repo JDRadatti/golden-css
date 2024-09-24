@@ -229,7 +229,7 @@ label:has([type="range"]) {
 
 [type="range"]:active::-webkit-slider-thumb {
     transform: scale(1.3);
-    background-color: var(--golden-input-color-surface);
+    background-color: var(--golden-input-color-active);
 }
 
 [type="range"]:active::-moz-range-thumb {
