@@ -57,18 +57,6 @@
 
     --golden-border-radius: 0.2em;
     --golden-border-radius-circle: 50em;
-
-    --golden-input-color-onsurface: white;
-    --golden-input-color-surfacevariant: var(--md-sys-color-surface-variant);
-    --golden-input-color-surface: var(--golden-border-color);
-    --golden-input-color-active: var(--md-sys-color-primary);
-    --golden-input-color-accent: var(--md-sys-color-primary-container);
-
-    --golden-input-border-width: 3px;
-    --golden-input-border: var(--golden-input-border-width) solid var(--golden-input-color-surface);
-    --golden-input-border-active: var(--golden-input-border-width) solid var(--golden-input-color-active);
-    --golden-input-border-hidden: var(--golden-input-border-width) solid var(--golden-background-color);
-    --golden-input-outline: var(--golden-input-border-width) solid var(--golden-input-color-accent);
 }
 
 input {
