@@ -85,10 +85,6 @@ label:not([type="checkbox"]) {
     margin-right: var(--md);
 }
 
-label:has([role="switch"]) {
-    margin: 0;
-}
-
 fieldset:has(label [type="radio"]),
 fieldset:has(label [type="checkbox"]) {
     flex-direction: column;
