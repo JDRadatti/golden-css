@@ -10,7 +10,7 @@ button {
     white-space: normal;
     word-break: keep-all;
     border: var(--golden-border-transparent);
-    border-radius: calc(1em * var(--wholestep));
+    border-radius: var(--golden-border-radius-circle);
     padding: var(--a) var(--c);
     text-decoration: none;
     position: relative;
