@@ -8,371 +8,383 @@ background colors that are used in the design system.
 The color names are based on variables from the globals.css file. 
 Variables are set on the :root element, so they're accessible everywhere.
 
-Each class will automatically use the correct colors based on the theme.
-
-Background Color utility classes also set the optimal text color for child elements,
-if there are any.
+Named after material design variables, making it very simple to change color schemes. 
+See colors.css for steps to create a custom color scheme.
 
 */
 
 
 .bg-primary {
-    background-color: var(--golden-primary);
-    color: var(--golden-onprimary);
-    --state-color: var(--golden-onprimary);
+    background-color: var(--md-sys-color-primary);
+    color: var(--md-sys-color-on-primary);
+    --state-color: var(--md-sys-color-on-primary);
 }
 
 
 .bg-onprimary {
-    background-color: var(--golden-onprimary);
-    color: var(--golden-primary);
-    --state-color: var(--golden-primary);
+    background-color: var(--md-sys-color-on-primary);
+    color: var(--md-sys-color-primary);
+    --state-color: var(--md-sys-color-primary);
 }
 
 .bg-primarycontainer {
-    background-color: var(--golden-primarycontainer);
-    color: var(--golden-onprimarycontainer);
-    --state-color: var(--golden-onprimarycontainer);
+    background-color: var(--md-sys-color-primary-container);
+    color: var(--md-sys-color-on-primary-container);
+    --state-color: var(--md-sys-color-on-primary-container);
 }
 
 .bg-onprimarycontainer {
-    background-color: var(--golden-onprimarycontainer);
-    color: var(--golden-primarycontainer);
-    --state-color: var(--golden-primarycontainer);
+    background-color: var(--md-sys-color-on-primary-container);
+    color: var(--md-sys-color-primary-container);
+    --state-color: var(--md-sys-color-primary-container);
 }
 
 .bg-secondary {
-    background-color: var(--golden-secondary);
-    color: var(--golden-onsecondary);
-    --state-color: var(--golden-onsecondary);
+    background-color: var(--md-sys-color-secondary);
+    color: var(--md-sys-color-on-secondary);
+    --state-color: var(--md-sys-color-on-secondary);
 }
 
+
 .bg-onsecondary {
-    background-color: var(--golden-onsecondary);
-    color: var(--golden-secondary);
-    --state-color: var(--golden-secondary);
+    background-color: var(--md-sys-color-on-secondary);
+    color: var(--md-sys-color-secondary);
+    --state-color: var(--md-sys-color-secondary);
 }
 
 .bg-secondarycontainer {
-    background-color: var(--golden-secondarycontainer);
-    color: var(--golden-onsecondarycontainer);
-    --state-color: var(--golden-onsecondarycontainer);
+    background-color: var(--md-sys-color-secondary-container);
+    color: var(--md-sys-color-on-secondary-container);
+    --state-color: var(--md-sys-color-on-secondary-container);
 }
 
 .bg-onsecondarycontainer {
-    background-color: var(--golden-onsecondarycontainer);
-    color: var(--golden-secondarycontainer);
-    --state-color: var(--golden-secondarycontainer);
+    background-color: var(--md-sys-color-on-secondary-container);
+    color: var(--md-sys-color-secondary-container);
+    --state-color: var(--md-sys-color-secondary-container);
 }
+
 
 .bg-tertiary {
-    background-color: var(--golden-tertiary);
-    color: var(--golden-ontertiary);
-    --state-color: var(--golden-ontertiary);
+    background-color: var(--md-sys-color-tertiary);
+    color: var(--md-sys-color-on-tertiary);
+    --state-color: var(--md-sys-color-on-tertiary);
 }
 
+
 .bg-ontertiary {
-    background-color: var(--golden-ontertiary);
-    color: var(--golden-tertiary);
-    --state-color: var(--golden-tertiary);
+    background-color: var(--md-sys-color-on-tertiary);
+    color: var(--md-sys-color-tertiary);
+    --state-color: var(--md-sys-color-tertiary);
 }
 
 .bg-tertiarycontainer {
-    background-color: var(--golden-tertiarycontainer);
-    color: var(--golden-ontertiarycontainer);
-    --state-color: var(--golden-ontertiarycontainer);
+    background-color: var(--md-sys-color-tertiary-container);
+    color: var(--md-sys-color-on-tertiary-container);
+    --state-color: var(--md-sys-color-on-tertiary-container);
 }
 
 .bg-ontertiarycontainer {
-    background-color: var(--golden-ontertiarycontainer);
-    color: var(--golden-tertiarycontainer);
-    --state-color: var(--golden-tertiarycontainer);
+    background-color: var(--md-sys-color-on-tertiary-container);
+    color: var(--md-sys-color-tertiary-container);
+    --state-color: var(--md-sys-color-tertiary-container);
 }
 
 .bg-error {
-    background-color: var(--golden-error);
-    color: var(--golden-onerror);
-    --state-color: var(--golden-onerror);
+    background-color: var(--md-sys-color-error);
+    color: var(--md-sys-color-on-error);
+    --state-color: var(--md-sys-color-on-error);
 }
 
+
 .bg-onerror {
-    background-color: var(--golden-onerror);
-    color: var(--golden-error);
-    --state-color: var(--golden-error);
+    background-color: var(--md-sys-color-on-error);
+    color: var(--md-sys-color-error);
+    --state-color: var(--md-sys-color-error);
 }
 
 .bg-errorcontainer {
-    background-color: var(--golden-errorcontainer);
-    color: var(--golden-onerrorcontainer);
-    --state-color: var(--golden-onerrorcontainer);
+    background-color: var(--md-sys-color-error-container);
+    color: var(--md-sys-color-on-error-container);
+    --state-color: var(--md-sys-color-on-error-container);
 }
 
 .bg-onerrorcontainer {
-    background-color: var(--golden-onerrorcontainer);
-    color: var(--golden-errorcontainer);
-    --state-color: var(--golden-errorcontainer);
+    background-color: var(--md-sys-color-on-error-container);
+    color: var(--md-sys-color-error-container);
+    --state-color: var(--md-sys-color-error-container);
 }
+
 
 .bg-background {
-    background-color: var(--golden-background);
-    color: var(--golden-onbackground);
-    --state-color: var(--golden-onbackground);
+    background-color: var(--md-sys-color-background);
+    color: var(--md-sys-color-on-background);
+    --state-color: var(--md-sys-color-on-background);
 }
 
+
 .bg-onbackground {
-    background-color: var(--golden-onbackground);
-    color: var(--golden-background);
-    --state-color: var(--golden-background);
+    background-color: var(--md-sys-color-on-background);
+    color: var(--md-sys-color-background);
+    --state-color: var(--md-sys-color-background);
 }
 
 .bg-surface {
-    background-color: var(--golden-surface);
-    color: var(--golden-onsurface);
-    --state-color: var(--golden-onsurface);
+    background-color: var(--md-sys-color-surface);
+    color: var(--md-sys-color-on-surface);
+    --state-color: var(--md-sys-color-on-surface);
 }
+
 
 .bg-onsurface {
-    background-color: var(--golden-onsurface);
-    color: var(--golden-surface);
-    --state-color: var(--golden-surface);
+    background-color: var(--md-sys-color-on-surface);
+    color: var(--md-sys-color-surface);
+    --state-color: var(--md-sys-color-surface);
 }
+
 
 .bg-surfacevariant {
-    background-color: var(--golden-surfacevariant);
-    color: var(--golden-onsurfacevariant);
-    --state-color: var(--golden-onsurfacevariant);
+    background-color: var(--md-sys-color-surface-variant);
+    color: var(--md-sys-color-on-surface-variant);
+    --state-color: var(--md-sys-color-on-surface-variant);
 }
 
+
 .bg-onsurfacevariant {
-    background-color: var(--golden-onsurfacevariant);
-    color: var(--golden-surfacevariant);
-    --state-color: var(--golden-surfacevariant);
+    background-color: var(--md-sys-color-on-surface-variant);
+    color: var(--md-sys-color-surface-variant);
+    --state-color: var(--md-sys-color-surface-variant);
 }
 
 .bg-outline {
-    background-color: var(--golden-outline);
-    color: var(--golden-surface);
-    --state-color: var(--golden-surface);
+    background-color: var(--md-sys-color-outline);
+    color: inherit;
+    --state-color: var(--md-sys-color-outline);
 }
 
 .bg-outlinevariant {
-    background-color: var(--golden-outlinevariant);
-    color: var(--golden-onsurface);
-    --state-color: var(--golden-onsurface);
+    background-color: var(--md-sys-color-outline-variant);
+    color: inherit;
+    --state-color: var(--md-sys-color-outline-variant);
+
 }
 
 .bg-shadow {
-    background-color: var(--golden-shadow);
-    color: var(--golden-surface);
-    --state-color: var(--golden-surface);
+    background-color: var(--md-sys-color-shadow);
+    color: inherit;
+    --state-color: var(--md-sys-color-shadow);
 }
 
 .bg-scrim {
-    background-color: var(--golden-scrim);
-    color: var(--golden-surface);
-    --state-color: var(--golden-surface);
+    background-color: var(--md-sys-color-scrim);
+    color: inherit;
+    --state-color: var(--md-sys-color-scrim);
 }
 
+
 .bg-inversesurface {
-    background-color: var(--golden-inversesurface);
-    color: var(--golden-inverseonsurface);
-    --state-color: var(--golden-inverseonsurface);
+    background-color: var(--md-sys-color-inverse-surface);
+    color: var(--md-sys-color-surface);
+    --state-color: var(--md-sys-color-surface);
 }
 
 .bg-inverseonsurface {
-    background-color: var(--golden-inverseonsurface);
-    color: var(--golden-inversesurface);
-    --state-color: var(--golden-inversesurface);
+    background-color: var(--md-sys-color-inverse-on-surface);
+    color: var(--md-sys-color-inverse-surface);
+    --state-color: var(--md-sys-color-inverse-surface);
 }
 
 .bg-inverseprimary {
-    background-color: var(--golden-inverseprimary);
-    color: var(--golden-onprimarycontainer);
-    --state-color: var(--golden-onprimarycontainer);
+    background-color: var(--md-sys-color-inverse-primary);
+    color: var(--md-sys-color-primary);
+    --state-color: var(--md-sys-color-primary);
 }
 
 .bg-success {
-    background-color: var(--golden-success);
-    color: var(--golden-onsuccess);
-    --state-color: var(--golden-onsuccess);
+    background-color: var(--md-extended-color-success-color);
+    color: var(--md-extended-color-success-on-color);
+    --state-color: var(--md-extended-color-success-on-color);
 }
 
 .bg-successcontainer {
-    background-color: var(--golden-successcontainer);
-    color: var(--golden-onsuccesscontainer);
-    --state-color: var(--golden-onsuccesscontainer);
+    background-color: var(--md-extended-color-success-color-container);
+    color: var(--md-extended-color-success-on-color-container);
+    --state-color: var(--md-extended-color-success-on-color-container);
 }
 
 .bg-onsuccess {
-    background-color: var(--golden-onsuccess);
-    color: var(--golden-success);
-    --state-color: var(--golden-success);
+    background-color: var(--md-extended-color-success-on-color);
+    color: var(--md-extended-color-success-color);
+    --state-color: var(--md-extended-color-success-color);
 }
 
 .bg-onsuccesscontainer {
-    background-color: var(--golden-onsuccesscontainer);
-    color: var(--golden-successcontainer);
-    --state-color: var(--golden-successcontainer);
+    background-color: var(--md-extended-color-success-on-color-container);
+    color: var(--md-extended-color-success-color-container);
+    --state-color: var(--md-extended-color-success-color-container);
 }
 
+
 .bg-warning {
-    background-color: var(--golden-warning);
-    color: var(--golden-onwarning);
-    --state-color: var(--golden-onwarning);
+    background-color: var(--md-extended-color-warning-color);
+    color: var(--md-extended-color-warning-on-color);
+    --state-color: var(--md-extended-color-warning-on-color);
 }
 
 .bg-warningcontainer {
-    background-color: var(--golden-warningcontainer);
-    color: var(--golden-onwarningcontainer);
-    --state-color: var(--golden-onwarningcontainer);
+    background-color: var(--md-extended-color-warning-color-container);
+    color: var(--md-extended-color-warning-on-color-container);
+    --state-color: var(--md-extended-color-warning-on-color-container);
 }
 
 .bg-onwarning {
-    background-color: var(--golden-onwarning);
-    color: var(--golden-warning);
-    --state-color: var(--golden-warning);
+    background-color: var(--md-extended-color-warning-on-color);
+    color: var(--md-extended-color-warning-color);
+    --state-color: var(--md-extended-color-warning-color);
 }
 
 .bg-onwarningcontainer {
-    background-color: var(--golden-onwarningcontainer);
-    color: var(--golden-warningcontainer);
-    --state-color: var(--golden-warningcontainer);
+
+    background-color: var(--md-extended-color-warning-on-color-container);
+    color: var(--md-extended-color-warning-color-container);
+    --state-color: var(--md-extended-color-warning-color-container);
 }
 
 .bg-info {
-    background-color: var(--golden-info);
-    color: var(--golden-oninfo);
-    --state-color: var(--golden-oninfo);
+    background-color: var(--md-extended-color-info-color);
+    color: var(--md-extended-color-info-on-color);
+    --state-color: var(--md-extended-color-info-on-color);
 }
 
 .bg-infocontainer {
-    background-color: var(--golden-infocontainer);
-    color: var(--golden-oninfocontainer);
-    --state-color: var(--golden-oninfocontainer);
+    background-color: var(--md-extended-color-info-color-container);
+    color: var(--md-extended-color-info-on-color-container);
+    --state-color: var(--md-extended-color-info-on-color-container);
 }
 
 .bg-oninfo {
-    background-color: var(--golden-oninfo);
-    color: var(--golden-info);
-    --state-color: var(--golden-info);
+    background-color: var(--md-extended-color-info-on-color);
+    color: var(--md-extended-color-info-color);
+    --state-color: var(--md-extended-color-info-color);
 }
 
 .bg-oninfocontainer {
-    background-color: var(--golden-oninfocontainer);
-    color: var(--golden-infocontainer);
-    --state-color: var(--golden-infocontainer);
+
+    background-color: var(--md-extended-color-info-on-color-container);
+    color: var(--md-extended-color-info-color-container);
+    --state-color: var(--md-extended-color-info-color-container);
 }
 
 .bg-primaryfixed {
-    background-color: var(--golden-primaryfixed);
-    color: var(--golden-onprimaryfixed);
-    --state-color: var(--golden-onprimaryfixed);
-}
-
-.bg-primaryfixeddim {
-    background-color: var(--golden-primaryfixeddim);
-    color: var(--golden-onprimaryfixedvariant);
-    --state-color: var(--golden-onprimaryfixedvariant);
+    background-color: var(--md-sys-color-primary-fixed);
+    color: var(--md-sys-color-on-primary-fixed);
+    --state-color: var(--md-sys-color-on-primary-fixed);
 }
 
 .bg-onprimaryfixed {
-    background-color: var(--golden-onprimaryfixed);
-    color: var(--golden-primaryfixed);
-    --state-color: var(--golden-primaryfixed);
+    background-color: var(--md-sys-color-on-primary-fixed);
+    color: var(--md-sys-color-primary-fixed);
+    --state-color: var(--md-sys-color-primary-fixed);
+}
+
+.bg-primaryfixeddim {
+    background-color: var(--md-sys-color-primary-fixed-dim);
+    color: var(--md-sys-color-on-primary-fixed);
+    --state-color: var(--md-sys-color-on-primary-fixed);
 }
 
 .bg-onprimaryfixedvariant {
-    background-color: var(--golden-onprimaryfixedvariant);
-    color: var(--golden-primaryfixed);
-    --state-color: var(--golden-primaryfixed);
+    background-color: var(--md-sys-color-on-primary-fixed-variant);
+    color: var(--md-sys-color-primary-fixed);
+    --state-color: var(--md-sys-color-primary-fixed);
 }
 
 .bg-secondaryfixed {
-    background-color: var(--golden-secondaryfixed);
-    color: var(--golden-onsecondaryfixed);
-    --state-color: var(--golden-onsecondaryfixed);
-}
-
-.bg-secondaryfixeddim {
-    background-color: var(--golden-secondaryfixeddim);
-    color: var(--golden-onsecondaryfixedvariant);
-    --state-color: var(--golden-onsecondaryfixedvariant);
+    background-color: var(--md-sys-color-secondary-fixed);
+    color: var(--md-sys-color-on-secondary-fixed);
+    --state-color: var(--md-sys-color-on-secondary-fixed);
 }
 
 .bg-onsecondaryfixed {
-    background-color: var(--golden-onsecondaryfixed);
-    color: var(--golden-secondaryfixed);
-    --state-color: var(--golden-secondaryfixed);
+    background-color: var(--md-sys-color-on-secondary-fixed);
+    color: var(--md-sys-color-secondary-fixed);
+    --state-color: var(--md-sys-color-secondary-fixed);
+}
+
+.bg-secondaryfixeddim {
+    background-color: var(--md-sys-color-secondary-fixed-dim);
+    color: var(--md-sys-color-on-secondary-fixed);
+    --state-color: var(--md-sys-color-on-secondary-fixed);
 }
 
 .bg-onsecondaryfixedvariant {
-    background-color: var(--golden-onsecondaryfixedvariant);
-    color: var(--golden-secondaryfixed);
-    --state-color: var(--golden-secondaryfixed);
+    background-color: var(--md-sys-color-on-secondary-fixed-variant);
+    color: var(--md-sys-color-on-secondary-fixed);
+    --state-color: var(--md-sys-color-on-secondary-fixed);
 }
 
 .bg-tertiaryfixed {
-    background-color: var(--golden-tertiaryfixed);
-    color: var(--golden-ontertiaryfixed);
-    --state-color: var(--golden-ontertiaryfixed);
-}
-
-.bg-tertiaryfixeddim {
-    background-color: var(--golden-tertiaryfixeddim);
-    color: var(--golden-ontertiaryfixedvariant);
-    --state-color: var(--golden-ontertiaryfixedvariant);
+    background-color: var(--md-sys-color-tertiary-fixed);
+    color: var(--md-sys-color-on-tertiary-fixed);
+    --state-color: var(--md-sys-color-on-tertiary-fixed);
 }
 
 .bg-ontertiaryfixed {
-    background-color: var(--golden-ontertiaryfixed);
-    color: var(--golden-tertiaryfixed);
-    --state-color: var(--golden-tertiaryfixed);
+    background-color: var(--md-sys-color-on-tertiary-fixed);
+    color: var(--md-sys-color-tertiary-fixed);
+    --state-color: var(--md-sys-color-tertiary-fixed);
 }
 
 .bg-ontertiaryfixedvariant {
-    background-color: var(--golden-ontertiaryfixedvariant);
-    color: var(--golden-tertiaryfixed);
-    --state-color: var(--golden-tertiaryfixed);
+    background-color: var(--md-sys-color-tertiary-fixed);
+    color: var(--md-sys-color-on-tertiary-fixed-variant);
+    --state-color: var(--md-sys-color-on-tertiary-fixed-variant);
+}
+
+.bg-tertiaryfixeddim {
+    background-color: var(--md-sys-color-tertiary-fixed-dim);
+    color: var(--md-sys-color-on-tertiary-fixed);
+    --state-color: var(--md-sys-color-on-tertiary-fixed);
 }
 
 .bg-surfacedim {
-    background-color: var(--golden-surfacedim);
-    color: var(--golden-onsurface);
-    --state-color: var(--golden-onsurface);
+    background-color: var(--md-sys-color-surface-dim);
+    color: var(--md-sys-color-on-surface);
+    --state-color: var(--md-sys-color-on-surface);
 }
 
 .bg-surfacebright {
-    background-color: var(--golden-surfacebright);
-    color: var(--golden-onsurface);
-    --state-color: var(--golden-onsurface);
+    background-color: var(--md-sys-color-surface-bright);
+    color: var(--md-sys-color-on-surface);
+    --state-color: var(--md-sys-color-on-surface);
 }
 
 .bg-surfacecontainerlowest {
-    background-color: var(--golden-surfacecontainerlowest);
-    color: var(--golden-onsurface);
-    --state-color: var(--golden-onsurface);
+    background-color: var(--md-sys-color-surface-container-lowest);
+    color: var(--md-sys-color-on-surface);
+    --state-color: var(--md-sys-color-on-surface);
 }
 
 .bg-surfacecontainerlow {
-    background-color: var(--golden-surfacecontainerlow);
-    color: var(--golden-onsurface);
-    --state-color: var(--golden-onsurface);
+    background-color: var(--md-sys-color-surface-container-low);
+    color: var(--md-sys-color-on-surface);
+    --state-color: var(--md-sys-color-on-surface);
 }
 
 .bg-surfacecontainer {
-    background-color: var(--golden-surfacecontainer);
-    color: var(--golden-onsurface);
-    --state-color: var(--golden-onsurface);
+    background-color: var(--md-sys-color-surface-container);
+    color: var(--md-sys-color-on-surface);
+    --state-color: var(--md-sys-color-on-surface);
 }
 
 .bg-surfacecontainerhigh {
-    background-color: var(--golden-surfacecontainerhigh);
-    color: var(--golden-onsurface);
-    --state-color: var(--golden-onsurface);
+    background-color: var(--md-sys-color-surface-container-high);
+    color: var(--md-sys-color-on-surface);
+    --state-color: var(--md-sys-color-on-surface);
 }
 
 .bg-surfacecontainerhighest {
-    background-color: var(--golden-surfacecontainerhighest);
-    color: var(--golden-onsurface);
-    --state-color: var(--golden-onsurface);
+    background-color: var(--md-sys-color-surface-container-highest);
+    color: var(--md-sys-color-on-surface);
+    --state-color: var(--md-sys-color-on-surface);
 }
