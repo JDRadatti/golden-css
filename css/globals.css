@@ -59,6 +59,7 @@
     --golden-border-radius-circle: 50em;
 }
 
+label,
 input {
     --golden-input-color-onsurface: white;
     --golden-input-color-surfacevariant: var(--md-sys-color-surface-variant);
