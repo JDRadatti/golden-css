@@ -47,6 +47,7 @@
 
 label[aria-disabled="true"],
 [type="checkbox"]:disabled,
+textarea:disabled,
 [type="radio"]:disabled {
     filter: opacity(0.5);
 }
@@ -254,7 +255,6 @@ textarea {
     padding-top: .786164em;
     width: 100%;
     min-height: 1em;
-    height: 150px;
     background-color: var(--golden-input-color-element-bg);
     color: var(--golden-input-color-font);
 }

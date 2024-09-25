@@ -392,4 +392,7 @@ document.querySelector('#range').innerHTML = `
   aria-label="Professional short bio"
 >
 </textarea>
+<textarea name="disabled" disabled>
+  Disabled
+</textarea>
 `
