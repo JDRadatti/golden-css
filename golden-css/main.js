@@ -384,3 +384,12 @@ document.querySelector('#range').innerHTML = `
     <input type="range" value="25" oninput="contrast.value=value"/>
 </label>
 `
+
+document.querySelector('#range').innerHTML = `
+<textarea
+  name="bio"
+  placeholder="Write a professional short bio..."
+  aria-label="Professional short bio"
+>
+</textarea>
+`

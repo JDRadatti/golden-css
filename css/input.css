@@ -241,3 +241,24 @@ label:has([type="range"]) {
 [type="range"]:focus {
     background-color: var(--golden-input-color-surface);
 }
+
+
+textarea {
+    -webkit-appearance: none;
+    appearance: none;
+    resize: vertical;
+    border-radius: var(--golden-border-radius);
+    border: var(--golden-border);
+    transition: 0.2s outline ease-in-out;
+    padding: var(--md);
+    padding-top: .786164em;
+    width: 100%;
+    min-height: 1em;
+    height: 150px;
+    background-color: var(--golden-input-color-element-bg);
+    color: var(--golden-input-color-font);
+}
+
+textarea:focus {
+    outline: var(--golden-input-border-active);
+}

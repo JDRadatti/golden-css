@@ -59,10 +59,13 @@
     --golden-border-radius-circle: 50em;
 }
 
+textarea,
 label,
 input {
     --golden-input-color-onsurface: white;
-    --golden-input-color-surfacevariant: var(--md-sys-color-surface-variant);
+    --golden-input-color-font: var(--md-sys-color-on-surface);
+    --golden-input-color-element-bg: var(--md-sys-color-surface);
+    --golden-input-color-surfacevariant: var(--md-sys-color-on-surface-variant);
     --golden-input-color-surface: var(--golden-border-color);
     --golden-input-color-active: var(--md-sys-color-primary);
     --golden-input-color-accent: var(--md-sys-color-primary-container);
