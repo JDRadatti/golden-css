@@ -395,4 +395,8 @@ document.querySelector('#range').innerHTML = `
 <textarea name="disabled" disabled>
   Disabled
 </textarea>
+<textarea name="valid" placeholder="Valid" aria-invalid="false">
+</textarea>
+<textarea name="invalid" placeholder="Invalid" aria-invalid="true">
+</textarea> 
 `

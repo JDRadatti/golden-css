@@ -1,3 +1,5 @@
+@import "colors.css";
+
 :root {
     font-size: 1rem;
 
@@ -75,4 +77,6 @@ input {
     --golden-input-border-active: var(--golden-input-border-width) solid var(--golden-input-color-active);
     --golden-input-border-hidden: var(--golden-input-border-width) solid var(--golden-background-color);
     --golden-input-outline: var(--golden-input-border-width) solid var(--golden-input-color-accent);
+    --golden-input-border-invalid: var(--golden-input-border-width) solid var(--md-sys-color-error);
+    --golden-input-border-valid: var(--golden-input-border-width) solid var(--md-extended-color-success-color);
 }
