@@ -67,6 +67,7 @@ input {
     --golden-input-color-onsurface: white;
     --golden-input-color-font: var(--md-sys-color-on-surface);
     --golden-input-color-element-bg: var(--md-sys-color-surface);
+    --golden-input-color-element-bg-focus: var(--md-sys-color-surface-container-lowest);
     --golden-input-color-surfacevariant: var(--md-sys-color-on-surface-variant);
     --golden-input-color-surface: var(--golden-border-color);
     --golden-input-color-active: var(--md-sys-color-primary);

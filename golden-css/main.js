@@ -399,4 +399,25 @@ document.querySelector('#range').innerHTML = `
 </textarea>
 <textarea name="invalid" placeholder="Invalid" aria-invalid="true">
 </textarea> 
+
+
+<input
+  type="text"
+  name="valid"
+  value="Valid"
+  aria-invalid="false"
+  aria-describedby="valid-helper"
+>
+<small id="valid-helper">Looks good!</small>
+
+<input
+  type="text"
+  name="invalid"
+  value="Invalid"
+  aria-invalid="true"
+  aria-describedby="invalid-helper"
+>
+<small id="invalid-helper">
+  Please provide a valid value!
+</small>
 `
