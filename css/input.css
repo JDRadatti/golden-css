@@ -261,7 +261,7 @@ textarea {
 
 textarea:focus {
     outline: var(--golden-input-border-active);
-    background-color: var(--golden-input-color-element-bg-focus);
+    background-color: var(--golden-input-color-element-bg);
 }
 
 [aria-invalid="true"]:focus,

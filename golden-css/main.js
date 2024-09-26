@@ -201,16 +201,17 @@ document.querySelector('#button').innerHTML = `
         <div class="state-layer"></div>
         Back
     </a>
-    <a class="button bg-primary start-icon">
+    <a class="button bg-primary" start-icon="home">
         <div class="state-layer"></div>
-        <div class="material-symbols-filled">arrow_forward</div>
         Back
     </a>
-    <a class="button bg-primary start-icon end-icon">
+    <a class="button bg-primary" start-icon="home" end-icon="arrow_forward">
         <div class="state-layer"></div>
-        <div class="material-symbols-filled">home</div>
         Back
-        <div class="material-symbols-filled">arrow_forward</div>
+    </a>
+    <a class="button bg-primary" start-icon="arrow_back" end-icon="home">
+        <div class="state-layer"></div>
+        forward
     </a>
 </div>
 
@@ -219,16 +220,13 @@ document.querySelector('#button').innerHTML = `
         <div class="state-layer"></div>
         Back
     </a>
-    <a class="button bg-primary large start-icon">
+    <a class="button bg-primary large" start-icon="arrow_forward">
         <div class="state-layer"></div>
-        <div class="material-symbols-filled">arrow_forward</div>
         Back
     </a>
-    <a class="button bg-primary large start-icon end-icon">
+    <a class="button bg-primary large" start-icon="arrow_forward" end-icon="home">
         <div class="state-layer"></div>
-        <div class="material-symbols-filled">arrow_forward</div>
         Back
-        <div class="material-symbols-filled">home</div>
     </a>
 </div>
 `
